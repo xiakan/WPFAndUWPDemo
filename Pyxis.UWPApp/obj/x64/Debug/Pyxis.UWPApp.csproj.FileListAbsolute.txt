@@ -1,0 +1,554 @@
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\PyxisSmartAssistant.ClassLibrary.xr.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\App.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-GB.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-US.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\es-US.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\FR.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\GR.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\IT.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\JP.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\KR.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\TC.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\zh-CN.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.xr.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.exe
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.pdb
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\resources.pri
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\AppxManifest.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\Pyxis.UWPApp.exe
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.build.appxrecipe
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.pri
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\NoiseAsset_256x256_PNG.png
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\WebView2Loader.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\System.Runtime.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.dll
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pdb
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.AssemblyReference.cache
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.i.cs
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.cs
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xaml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xbf
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CoreCompileInputs.cache
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CopyComplete
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.exe
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.pdb
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Toolkit.Win32.UI.XamlHost.winmd_637614636960000000.json
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.winmd_637854935940000000.json
+C:\Users\Yogabook\Downloads\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637872514240000000.json
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\PyxisSmartAssistant.ClassLibrary.xr.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\App.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-GB.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-US.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\es-US.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\FR.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\GR.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\IT.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\JP.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\KR.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\TC.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\zh-CN.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.xr.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.exe
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.pdb
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\resources.pri
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\AppxManifest.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\Pyxis.UWPApp.exe
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.build.appxrecipe
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.pri
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\NoiseAsset_256x256_PNG.png
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\WebView2Loader.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\System.Runtime.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.dll
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pdb
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.AssemblyReference.cache
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.i.cs
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.cs
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xaml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xbf
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CoreCompileInputs.cache
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CopyComplete
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.exe
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.pdb
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Toolkit.Win32.UI.XamlHost.winmd_637614636960000000.json
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.winmd_637854935940000000.json
+C:\Pyxis1\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638136874540000000.json
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\PyxisSmartAssistant.ClassLibrary.xr.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\App.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-GB.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-US.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\es-US.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\FR.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\GR.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\IT.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\JP.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\KR.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\TC.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\zh-CN.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.xr.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.exe
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.pdb
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\resources.pri
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\AppxManifest.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\Pyxis.UWPApp.exe
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.build.appxrecipe
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.pri
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\NoiseAsset_256x256_PNG.png
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\WebView2Loader.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\System.Runtime.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.dll
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pdb
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.AssemblyReference.cache
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.i.cs
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.cs
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xaml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xbf
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CoreCompileInputs.cache
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CopyComplete
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.exe
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.pdb
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Toolkit.Win32.UI.XamlHost.winmd_637614636960000000.json
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.winmd_637975105260000000.json
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638136874540000000.json
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\PyxisSmartAssistant.ClassLibrary.xr.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\BrightnessBar.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\CustomControl\WlanSignalIcon.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Themes\Generic.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\CloseButton.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\ScheduleWidget.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SettingWidget.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WeatherWidget.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\EmailWidget.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\NewsWidget.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\Pips\PipsPager.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\SystemWidget.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView2.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarLeftView.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView2.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\Views\WonderBarRightView.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\App.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-GB.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\en-US.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\es-US.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\FR.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\GR.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\IT.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\JP.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\KR.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\TC.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Languages\zh-CN.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.xr.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.exe
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.pdb
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\resources.pri
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\AppxManifest.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\Pyxis.UWPApp.exe
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.build.appxrecipe
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.pri
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\NoiseAsset_256x256_PNG.png
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\WebView2Loader.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\System.Runtime.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.dll
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pdb
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.AssemblyReference.cache
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.i.cs
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.cs
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xaml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-GB.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\en-US.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\es-US.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\FR.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\GR.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\IT.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\JP.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\KR.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\TC.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Languages\zh-CN.xbf
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CoreCompileInputs.cache
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CopyComplete
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.exe
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.pdb
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Toolkit.Win32.UI.XamlHost.winmd_637614636960000000.json
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.winmd_637975105260000000.json
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638136874540000000.json
+C:\Pyxis - 副本\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638162368560000000.json
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\MyUserControl1.xbf
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\PyxisSmartAssistant.ClassLibrary.xr.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary\MyUserControl1.xaml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\App.xbf
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.xr.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.exe
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.pdb
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\resources.pri
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\AppxManifest.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Core\Pyxis.UWPApp.exe
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Pyxis.UWPApp.build.appxrecipe
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.pri
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\NoiseAsset_256x256_PNG.png
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\WebView2Loader.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\System.Runtime.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.dll
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pdb
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\bin\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.AssemblyReference.cache
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.i.cs
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.g.cs
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xaml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\App.xbf
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CoreCompileInputs.cache
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.csproj.CopyComplete
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\PyxisSmartAssistant.ClassLibrary.pri.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.pri.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.exe
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\Pyxis.UWPApp.pdb
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Toolkit.Win32.UI.XamlHost.winmd_637614636960000000.json
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637425103200000000.json
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.winmd_637975105260000000.json
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638136874540000000.json
+C:\Users\Yogabook\Desktop\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638162368560000000.json

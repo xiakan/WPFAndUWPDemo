@@ -1,0 +1,2 @@
+C:\Users\Yogabook\Desktop\Webview2UpdateDemo\Pyxis.ClassLibrary\ClassLibrary.csproj;x64
+C:\Users\Yogabook\Desktop\Webview2UpdateDemo\Pyxis.UWPApp\UWPApp.csproj;x64

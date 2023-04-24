@@ -1,0 +1,100 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="PyxisSmartAssistant.ClassLibrary.Views.NewsWidget"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:customControl="using:PyxisSmartAssistant.ClassLibrary.CustomControl"
+    xmlns:models="using:PyxisSmartAssistant.ClassLibrary.Models"
+    xmlns:themes="using:PyxisSmartAssistant.ClassLibrary.Themes"
+    xmlns:viewmodels="using:PyxisSmartAssistant.ClassLibrary.ViewModels"
+    xmlns:control="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    d:DesignWidth="400" 
+    d:DesignHeight="200" >
+
+    
+
+    <Grid x:ConnectionId='2' x:Name="RootGrid" >
+        <!--
+            1. 为了挡住新闻顶部的隐私协议等信息，
+        所以 WebView2.Margin.Top=-40
+            2. 为了让 WebView2 内部的新闻子项能够有足够的宽度，以实现新闻两列并排
+        所以 WebView2.Width=640
+            3. 但是右侧的滚动条会跑到当前部件的布局外面，以至于影响右面的下一部件
+        所以 Canvas.RectangleGeometry.Rect=0,0,Width,Height
+            4. Viewbox 用于自适应宽度，防止出现留白
+        -->
+        <!--<Viewbox Visibility="{x:Bind NewsWidgetStateLoadedToVisibilityConverter(State), Mode=OneWay}" >-->
+            <Canvas x:ConnectionId='3'                                                                                     
+                x:Name="Canvas"  
+                 Width="612">
+            <UIElement.RenderTransformOrigin>
+                0.5,0.5
+            </UIElement.RenderTransformOrigin>
+            <UIElement.RenderTransform>
+                <ScaleTransform x:ConnectionId='8' x:Name="NewsScale" ScaleX="1.1" ScaleY="1.1"/>
+            </UIElement.RenderTransform>
+            <UIElement.Clip>
+                <RectangleGeometry x:ConnectionId='9' x:Name="RectangleGeometry">
+                    <RectangleGeometry.Rect>
+                        0,0,612,100
+                    </RectangleGeometry.Rect>
+                </RectangleGeometry>
+            </UIElement.Clip>
+
+        </Canvas>
+        <!--</Viewbox>-->
+
+        <!--NoInternet-->
+
+        <StackPanel x:ConnectionId='4' VerticalAlignment="Center"                                                                                         >
+            <Border CornerRadius="60" Width="120" Height="120" Background="{ThemeResource AppOverlayTipBackground}">
+                <Path HorizontalAlignment="Center" VerticalAlignment="Center" Fill="{ThemeResource SystemColorControlAccentBrush}">
+                    <Path.Data>
+                        M48.504,26.551C48.502,26.551 48.499,26.551 48.496,26.551C42.791,26.551 38.096,31.245 38.096,36.951L38.096,36.951C38.102,42.658 42.797,47.352 48.504,47.356C48.507,47.356 48.51,47.356 48.512,47.356C54.218,47.356 58.912,42.661 58.912,36.956L58.912,36.956C58.911,31.247 54.213,26.55 48.504,26.551ZM29.87,35.916C30.983,35.918 32.053,36.356 32.847,37.135C33.631,37.912 34.074,38.969 34.078,40.073C34.075,41.178 33.632,42.237 32.847,43.015C32.051,43.792 30.983,44.23 29.87,44.234C28.757,44.232 27.688,43.794 26.893,43.015C26.109,42.236 25.667,41.177 25.663,40.073C25.667,38.968 26.11,37.909 26.894,37.131C27.69,36.353 28.759,35.916 29.871,35.912L29.87,35.916ZM53.825,39.451C54.259,39.885 53.977,40.858 53.192,41.643C52.407,42.428 51.434,42.698 51,42.276L48.495,39.773L45.987,42.281C45.553,42.715 44.58,42.433 43.795,41.648C43.01,40.863 42.74,39.89 43.162,39.456L45.67,36.948L43.162,34.44C42.728,34.006 43.01,33.033 43.795,32.248C44.58,31.463 45.553,31.193 45.987,31.615L48.495,34.123L51.004,31.615C51.438,31.181 52.411,31.463 53.196,32.248C53.981,33.033 54.251,34.006 53.829,34.44L51.321,36.948L53.825,39.451ZM29.249,24.781C32.351,24.679 35.41,25.54 38.004,27.243C37.022,28.27 36.2,29.439 35.566,30.712C33.744,29.537 31.617,28.921 29.448,28.942C24.185,29.047 20.282,33.619 20.282,33.619C19.889,34.118 19.287,34.411 18.651,34.411C18.168,34.411 17.7,34.242 17.328,33.935C16.822,33.556 16.524,32.96 16.524,32.328C16.524,31.846 16.697,31.38 17.012,31.016C17.235,30.712 22.088,25.098 29.249,24.781ZM50.828,21.03C51.51,21.569 51.751,22.503 51.414,23.304C50.34,23.04 49.238,22.905 48.132,22.904C47.64,22.904 47.16,22.927 46.69,22.974C27.667,7.674 12.59,23.548 11.984,24.263C11.59,24.726 11.011,24.993 10.402,24.99C9.904,24.955 9.427,24.775 9.03,24.473C8.214,23.695 8.167,22.389 8.925,21.554C9.136,21.343 28.194,1.159 50.825,21.027L50.828,21.03ZM0,13.756C-0,13.228 0.197,12.7 0.59,12.297C0.801,11.981 28.076,-15.072 59.137,12.086C59.58,12.464 59.836,13.018 59.836,13.6C59.836,14.126 59.627,14.632 59.255,15.005C58.863,15.47 58.285,15.74 57.676,15.74C57.169,15.74 56.68,15.553 56.301,15.216C28.288,-9.34 4.601,14.173 3.544,15.216C3.152,15.608 2.622,15.831 2.067,15.837C1.513,15.831 0.982,15.608 0.59,15.216C0.197,14.812 -0,14.284 0,13.756Z
+                    </Path.Data>
+                </Path>
+            </Border>
+            <ContentControl Height="18"/>
+            <TextBlock HorizontalAlignment="Center" Text="{StaticResource WonderBar_NoInternetConnection}">
+                <!--No Internet Connection-->
+            </TextBlock>
+        </StackPanel>
+
+
+        <!--NoInternetTop-->
+        <Border x:ConnectionId='5' Grid.ColumnSpan="2"  Height="40" Width="40" Margin="0,2" Background="Transparent" HorizontalAlignment="Right" VerticalAlignment="Top"
+                                                                                                          >
+            <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <Image.Source>
+                    ms-appx:///Images/NoInternetTop.png
+                </Image.Source>
+            </Image>
+        </Border>
+
+
+        <!--Loading-->
+        <StackPanel x:ConnectionId='6' HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                                                 >
+            <Border CornerRadius="60" Width="200" Height="120" Background="{ThemeResource AppBackground}">
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <Image.Source>
+                        ms-appx:///Images/News_Loading.png
+                    </Image.Source>
+                </Image>
+            </Border>
+            <ContentControl Height="12"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <!--<customControl:ProgressRing Width="10" Height="10" Thickness="2" IsActive="{x:Bind NewsWidgetStateLoadingToBooleanConverter(State), Mode=OneWay}"/>-->
+                <ProgressRing x:ConnectionId='7'                                                                                 ></ProgressRing>
+                <ContentControl Width="10"/>
+                <TextBlock  Text="{StaticResource News_Loading}">
+                <!--Loading-->
+                </TextBlock>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
+

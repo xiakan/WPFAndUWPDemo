@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Platforms>AnyCPU;x64</Platforms>
+		<AssetTargetFallback>uap10.0.19041</AssetTargetFallback>
+		<StartupObject>WPFAndUWPDemo.MyWPFApp.Program</StartupObject> 
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<PackageId>Pyxis.Wonderbar</PackageId>
+		<TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
+		<TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
+		<BaseOutputPath>..\bin\Wonderbar</BaseOutputPath>
+		<AssemblyName>YB9.Wonderbar</AssemblyName>
+		<AssemblyVersion>1.0.3.12</AssemblyVersion>
+		<FileVersion>1.0.3.12</FileVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<OutputPath>..\bin\Wonderbar</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<COMReference Include="Microsoft.Office.Interop.Outlook">
+			<WrapperTool>tlbimp</WrapperTool>
+			<VersionMinor>6</VersionMinor>
+			<VersionMajor>9</VersionMajor>
+			<Guid>00062fff-0000-0000-c000-000000000046</Guid>
+			<Lcid>0</Lcid>
+			<Isolated>false</Isolated>
+			<EmbedInteropTypes>true</EmbedInteropTypes>
+		</COMReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Toolkit.Wpf.UI.Controls" Version="6.1.2" />
+		<PackageReference Include="Microsoft.Toolkit.Wpf.UI.XamlHost" Version="6.1.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+		<PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+		<PackageReference Include="System.Management" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Pyxis.ClassLibrary\ClassLibrary.csproj" />
+		<ProjectReference Include="..\Pyxis.UWPApp\UWPApp.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="System.Windows.Forms">
+			<HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+
+
+</Project>

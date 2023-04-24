@@ -1,0 +1,12 @@
+﻿"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\Microsoft.Graphics.Canvas.winmd"
+"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\Microsoft.Toolkit.Win32.UI.XamlHost.winmd"
+"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\Microsoft.UI.Xaml.winmd"
+"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\Microsoft.Web.WebView2.Core.winmd"
+"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\Newtonsoft.Json.dll"
+"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\Pyxis.UWPApp.exe"
+"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\PyxisSmartAssistant.ClassLibrary.dll"
+/Lib:"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in"
+/Lib:"C:\Users\Yogabook\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.10-rel-29722-00\tools\x64\ilc\lib\Private"
+/WinMD:"C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/RdXmlPath:"C:\Users\Yogabook\.nuget\packages\microsoft.net.native.compiler\2.2.10-rel-29722-00\tools\LibraryXML"
+/RunOnlyPreDR

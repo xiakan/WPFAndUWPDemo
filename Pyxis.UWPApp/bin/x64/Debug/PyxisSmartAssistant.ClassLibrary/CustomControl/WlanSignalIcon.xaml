@@ -1,0 +1,40 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="PyxisSmartAssistant.ClassLibrary.CustomControl.WlanSignalIcon"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    >
+
+    <UserControl.RenderTransform>
+        <TranslateTransform Y="-8"/>
+    </UserControl.RenderTransform>
+
+    <Canvas>
+        <Path x:ConnectionId='2' Opacity="0.5"                                        >
+            <Path.Data>
+                M8,12.525C9.647,10.881 12.353,10.881 14,12.525L11,15.525L8,12.525ZM6,10.525L4,8.525C7.84,4.685 14.16,4.685 18,8.525L16,10.525C13.257,7.783 8.743,7.783 6,10.525ZM11,0C14.991,-0 18.983,1.508 22,4.525L20,6.525C15.063,1.588 6.937,1.588 2,6.525L0,4.525C3.017,1.508 7.009,0 11,0Z
+            </Path.Data>
+        </Path>
+        <Path x:ConnectionId='3' x:Name="Path75"                                        >
+            <Path.Data>
+                M2,6.556L0,4.556C6.035,-1.478 15.965,-1.478 22,4.556L20,6.556C15.063,1.619 6.937,1.619 2,6.556Z
+            </Path.Data>
+        </Path>
+        <Path x:ConnectionId='4' x:Name="Path50"                                        >
+            <Path.Data>
+                M6,10.556L4,8.556C7.84,4.716 14.16,4.716 18,8.556L16,10.556C13.257,7.814 8.743,7.814 6,10.556Z
+            </Path.Data>
+        </Path>
+        <Path x:ConnectionId='5' x:Name="Path25"                                        >
+            <Path.Data>
+                M8,12.556C9.647,10.912 12.353,10.912 14,12.556L11,15.556L8,12.556Z
+            </Path.Data>
+        </Path>
+    </Canvas>
+
+</UserControl>
+

@@ -1,0 +1,721 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+<Visibility x:Key="UserCenter_QrVisibility">Visible</Visibility>
+<Visibility x:Key="UserCenter_BBSVisibility">Collapsed</Visibility>
+    <StaticResource x:Key="UserCenter_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="UserCenter_Shortcut" ResourceKey="ShortcutTitle"/>
+    <StaticResource x:Key="UserCenter_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="UserCenter_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="UserCenter_WindowsManager" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="UserCenter_Setting" ResourceKey="Setting"/>
+    <StaticResource x:Key="Layout_Title" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="Touchpad_Title" ResourceKey="TouchpadTitle" />
+    <StaticResource x:Key="WonderBar_Title" ResourceKey="WonderBarTitle" />
+    <StaticResource x:Key="AppLauncher_Title" ResourceKey="AppLauncherTitle" />
+    <StaticResource x:Key="FloatingButton_Title" ResourceKey="FloatingButtonTitle" />
+    <StaticResource x:Key="Waterfall_Title" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="FloatingButton_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="FloatingButton_Launcher" ResourceKey="AppLauncherTitle"/>
+    <StaticResource x:Key="FloatingButton_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="FloatingButton_Touchpad" ResourceKey="TouchpadTitle"/>
+    <StaticResource x:Key="FloatingButton_Waterfall" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Brightness" ResourceKey="BrightnessTitle" />
+    <StaticResource x:Key="FloatingButton_UserCenter" ResourceKey="UserCenterTitle" />
+    <StaticResource x:Key="GameAssistant_Title" ResourceKey="GameAssistantTitle" />
+    <x:String x:Key="WindowTitle">
+        Yoga Book 9 User Center
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Monday">
+        Monday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Tuesday">
+        Tuesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Wednesday">
+        Wednesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Thursday">
+        Thursday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Friday">
+        Friday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Saturday">
+        Saturday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Sunday">
+        Sunday
+    </x:String>
+    <x:String x:Key="WonderBar_Ethernet">
+        Ethernet
+    </x:String>
+    <x:String x:Key="FloatingButtonExpandText">
+        Click the floating ball menu to use functions such as notes, readers, and brightness adjustment; click the middle of the floating ball or other areas of the screen to close the floating ball
+    </x:String>
+    <x:String x:Key="FloatingButtonShowText">
+        Click the floating ball to expand the menu
+    </x:String>
+    <x:String x:Key="FloatingButtonText">
+        Click anywhere on the desktop to evoke a floating ball
+    </x:String>
+    <x:String x:Key="ReaderWindowText">
+        Use the pen to swipe from the bottom left corner to the middle to open Reader
+    </x:String>
+    <x:String x:Key="TouchpadText">
+        Three-finger tap anywhere on the screen to open the Quick Trackpad at that location
+    </x:String>
+    <x:String x:Key="WallpaperText">
+        The user center can quickly switch dual-screen themes.
+    </x:String>
+    <x:String x:Key="SmartnoteWindowText">
+        Use the pen to swipe from the bottom right corner to the middle to open Smartnote
+    </x:String>
+    <x:String x:Key="WindowThrowText">
+        Window Toss is complete!
+    </x:String>
+    <x:String x:Key="MoreFunctionButton">
+        Learn more features
+    </x:String>
+    <x:String x:Key="InkcanvasWindowText">
+        Saved to the desktop
+    </x:String>
+    <x:String x:Key="WonderBar_WeatherError">
+        The weather service is abnormal. Please try again later
+    </x:String>
+    <x:String x:Key="UserCenter_Welcom">
+        玩轉雙螢幕
+    </x:String>
+    <x:String x:Key="UserCenter_Work">
+        工作
+    </x:String>
+    <x:String x:Key="UserCenter_Learn">
+        學習
+    </x:String>
+    <x:String x:Key="UserCenter_Onthego">
+        行動
+    </x:String>
+    <x:String x:Key="UserCenter_Collaborate">
+        共同作業
+    </x:String>
+    <x:String x:Key="UserCenter_Entertain">
+        娛樂
+    </x:String>
+    <x:String x:Key="UserCenter_Introduce">
+        功能介紹
+    </x:String>
+    <x:String x:Key="WindowsManagerTitle">
+        視窗管理
+    </x:String>
+    <x:String x:Key="LayoutTitle">
+        拖曳視窗即可設定佈局
+    </x:String>
+    <x:String x:Key="LayoutSubtitle">
+        用手指或滑鼠將視窗拖曳到移動區域，鬆開後視窗即移動到另一個螢幕，或稍作停頓則可選擇移動到另一個螢幕上的位置。
+    </x:String>
+    <x:String x:Key="OpenButton">
+        開啟設定
+    </x:String>
+    <x:String x:Key="TaskBarTitle">
+        雙螢幕視窗切換
+    </x:String>
+    <x:String x:Key="TaskbarSubtitle">
+        在上螢幕開啟的應用程式，透過點擊下螢幕的工作列圖示，即可快速移到下螢幕。
+    </x:String>
+    <x:String x:Key="SnapLayoutTitle">
+        雙螢幕視窗佈局
+    </x:String>
+    <x:String x:Key="SnapLayoutSubtitle">
+        讓滑鼠指標停留在最大化按鈕上，可將視窗放到本螢幕或另一個螢幕的任意位置。
+    </x:String>
+    <x:String x:Key="ThrowTitle">
+        視窗拋擲
+    </x:String>
+    <x:String x:Key="ThrowSubtitle">
+        用手指拖曳應用程式標題欄，快速向另一個螢幕拋擲，即可在另一個螢幕中以全螢幕顯示該應用程式。
+    </x:String>
+    <x:String x:Key="WaterfallTitle">
+        跨螢幕瀏覽
+    </x:String>
+    <x:String x:Key="WaterfallSubtitle">
+        在雙螢幕橫向模式下，五指輕觸螢幕，即可跨螢幕以全螢幕模式顯示目前的應用程式視窗。
+    </x:String>
+    <x:String x:Key="WindowsKeyboardTitle">
+        傳統鍵盤
+    </x:String>
+    <x:String x:Key="WindowsKeyboardSubtitle">
+        8 指輕觸下螢幕或輕觸輸入框，即可快速啟動虛擬鍵盤，開始打字。
+    </x:String>
+    <x:String x:Key="ExperienceNowButton">
+        立即體驗
+    </x:String>
+    <x:String x:Key="KeyboardTitle">
+        分割鍵盤
+    </x:String>
+    <x:String x:Key="KeyboardSubtitle">
+        虛擬鍵盤可切換為分割鍵盤模式，可根據個人習慣調整雙手鍵盤區域的大小和位置。
+    </x:String>
+    <x:String x:Key="KeyboardOpacityTitle">
+        鍵盤透明度調整
+    </x:String>
+    <x:String x:Key="KeyboardOpacitySubtitle">
+        點擊虛擬鍵盤右上角的設定按鈕，即可調整鍵盤的透明度。
+    </x:String>
+    <x:String x:Key="KeyboardSkinTitle">
+        鍵盤主題切換
+    </x:String>
+    <x:String x:Key="KeyboardSkinSubtitle">
+        可在使用者中心的設定中修改虛擬鍵盤的主題。
+    </x:String>
+    <x:String x:Key="WonderBarTitle">
+        小工具欄
+    </x:String>
+    <x:String x:Key="TouchpadTitle">
+        虛擬觸控板
+    </x:String>
+    <x:String x:Key="TouchpadSubtitle">
+        三指輕觸下螢幕，即可啟動虛擬觸控板，然後即可使用游標進行精準操作。
+    </x:String>
+    <x:String x:Key="TouchpadSizeTitle">
+        調整虛擬觸控板大小
+    </x:String>
+    <x:String x:Key="TouchpadSizeSubtitle">
+        拖曳虛擬觸控板左上角的調整大小按鈕，即可調整其大小。
+    </x:String>
+    <x:String x:Key="TouchpadLowerTitle">
+        觸控板和書籤
+    </x:String>
+    <x:String x:Key="TouchpadLowerSubtitle">
+        當虛擬鍵盤和藍牙鍵盤在下螢幕上方時，鍵盤下方會顯示觸控板和書籤，書籤可展開或收合，建立的書籤可貼在鎖定螢幕介面上，以便查看。
+    </x:String>
+    <x:String x:Key="ShortcutTitle">
+        快捷功能
+    </x:String>
+    <x:String x:Key="FloatingButtonTitle">
+        懸浮球
+    </x:String>
+    <x:String x:Key="FloatingButtonSubtitle">
+        啟用後，懸浮球會顯示在桌面。點擊懸浮球即可快速存取功能。懸浮球中顯示的功能可在設定中自訂。
+    </x:String>
+    <x:String x:Key="BrightnessTitle">
+        亮度調整
+    </x:String>
+    <x:String x:Key="BrightnessSubtitle">
+        調整螢幕亮度時，兩個螢幕的亮度滑桿都會顯示，您可以分別調整兩個螢幕的亮度。
+    </x:String>
+    <x:String x:Key="WallpaperTitle">
+        雙螢幕桌布
+    </x:String>
+    <x:String x:Key="WallpaperSubtitle">
+        您可以選擇專為 Yoga Book 9 自訂的雙螢幕動態桌布。
+    </x:String>
+    <x:String x:Key="AppLauncherTitle">
+        智慧型應用程式組
+    </x:String>
+    <x:String x:Key="AppLauncherSubtitle">
+        啟用後，此功能會根據您的使用習慣，在裝置模式變更時推薦合適的應用程式和佈局。
+    </x:String>
+    <x:String x:Key="ReaderTitle">
+        智慧型閱讀
+    </x:String>
+    <x:String x:Key="ReaderSubtitle">
+        專為雙螢幕自訂的電子閱讀器，可為 PDF、Mobi、Epub 和 Txt 檔案提供沉浸式閱讀體驗。
+    </x:String>
+    <x:String x:Key="ReaderNoteTitle">
+        閱讀筆記
+    </x:String>
+    <x:String x:Key="ReaderNoteSubtitle">
+        與閃念筆記搭配使用，您可以為目前閱讀中的文件建立筆記。一個螢幕用於閱讀，另一個螢幕用於做筆記。
+    </x:String>
+    <x:String x:Key="ReaderImmersiveTitle">
+        沉浸式閱讀
+    </x:String>
+    <x:String x:Key="ReaderImmersiveSubtitle">
+        一鍵進入沉浸式閱讀模式，隱藏工具列和動作按鈕，減少干擾，讓您專心閱讀。
+    </x:String>
+    <x:String x:Key="NoteTitle">
+        閃念筆記
+    </x:String>
+    <x:String x:Key="NoteSubtitle">
+        專為雙螢幕自訂的手寫筆記軟體，提供極致書寫體驗，讓您快速記錄點滴靈感。
+    </x:String>
+    <x:String x:Key="LockScreenNoteTitle">
+        鎖定螢幕筆記
+    </x:String>
+    <x:String x:Key="LockScreenNoteSubtitle">
+        將觸控筆停留在鎖定螢幕介面上，可快速建立鎖定螢幕筆記或智慧型書籤。
+    </x:String>
+    <x:String x:Key="QuickNoteTitle">
+        智慧型書籤
+    </x:String>
+    <x:String x:Key="QuickNoteSubtitle">
+        透過手勢可將書籤貼在鎖定螢幕上，方便隨時查看待辦事項。 自動新增時間提醒。 電腦睡眠時，可喚醒裝置。
+    </x:String>
+    <x:String x:Key="ScreenshotTitle">
+        快速啟動/擷取螢幕畫面
+    </x:String>
+    <x:String x:Key="ScreenshotSubtitle">
+        使用觸控筆從左下角或右下角向螢幕中央滑動，可快速啟動閃念筆記或擷取螢幕畫面。
+    </x:String>
+    <x:String x:Key="UserCenter_Game">
+        雙螢幕遊戲
+    </x:String>
+    <x:String x:Key="Game1Title">
+        狂野飆車 9
+    </x:String>
+    <x:String x:Key="Game1Subtitle">
+        在上螢幕暢玩刺激的賽車遊戲，在下螢幕使用小地圖讓您盡享領先優勢。您還可以自由選擇用來操控賽車的螢幕。
+    </x:String>
+    <x:String x:Key="Game2Title">
+        現代戰爭 5
+    </x:String>
+    <x:String x:Key="Game2Subtitle">
+        上螢幕呈現驚險刺激的射擊比賽，下螢幕顯示小地圖助您洞察先機。
+    </x:String>
+    <x:String x:Key="Game3Title">
+        地牢獵手 5
+    </x:String>
+    <x:String x:Key="Game3Subtitle">
+        上螢幕顯示遊戲畫面，下螢幕操控遊戲角色，利用雙螢幕更快贏得遊戲。
+    </x:String>
+    <x:String x:Key="GameAssistantTitle">
+        雙螢幕遊戲助手
+    </x:String>
+    <x:String x:Key="GameAssistantSubtitle">
+        在雙螢幕模式下開啟 Xbox 或 Steam 時，另一個螢幕可自動開啟您儲存的網頁，方便您一邊遊戲，一邊查看攻略。您可以在使用者中心的設定中修改網頁鏈結。
+    </x:String>
+    <x:String x:Key="Setting">
+        雙螢幕設定
+    </x:String>
+    <x:String x:Key="ResetDisplaySettinButton">
+        還原預設顯示設定
+    </x:String>
+    <x:String x:Key="Layout_Subtitle">
+        應用程式視窗跨螢幕移動、佈局、視窗拋擲
+    </x:String>
+    <x:String x:Key="Layout_Text">
+        拖曳視窗時，顯示建議的佈局
+    </x:String>
+    <x:String x:Key="Layout_Mouse">
+        在您使用滑鼠拖曳視窗時顯示
+    </x:String>
+    <x:String x:Key="Layout_Touch">
+        在您使用手指拖曳視窗時顯示
+    </x:String>
+    <x:String x:Key="Layout_MaximizePanel">
+        滑鼠指標停留在視窗最大化按鈕上時，會顯示雙螢幕佈局選項
+    </x:String>
+    <x:String x:Key="Layout_TaskBarWindowUseTouch">
+        點擊工作列上已啟動的應用程式圖示，將在目前螢幕中快速顯示該應用程式的視窗
+    </x:String>
+    <x:String x:Key="Layout_WindowThrow">
+        用手指拖曳應用程式視窗並快速向另一個螢幕滑動，即可將應用程式視窗拋擲到另一個螢幕
+    </x:String>
+    <x:String x:Key="Brightness_Title">
+        雙螢幕亮度調整
+    </x:String>
+    <x:String x:Key="Brightness_Subtitle">
+        使用滑桿分別調整兩個螢幕的亮度
+    </x:String>
+    <x:String x:Key="Brightness_IsOpenBrightnessContorl">
+        系統亮度變更時將自動彈出亮度控制項
+    </x:String>
+    <x:String x:Key="Wallpaper_Title">
+        雙螢幕桌布
+    </x:String>
+    <x:String x:Key="Wallpaper_Subtitle">
+        雙螢幕桌布可根據螢幕方向和裝置開合角度自動調整
+    </x:String>
+    <x:String x:Key="Wallpaper_ApplyButton">
+        立即套用
+    </x:String>
+    <x:String x:Key="Keyboard_Title">
+        虛擬鍵盤
+    </x:String>
+    <x:String x:Key="Keyboard_Subtitle">
+        可調整透明度的觸控鍵盤
+    </x:String>
+    <x:String x:Key="Keyboard_Text">
+        選擇開啟虛擬鍵盤的方式：
+    </x:String>
+    <x:String x:Key="Keyboard_AutoStartKeyboard">
+        點擊輸入框即可自動啟動
+    </x:String>
+    <x:String x:Key="Keyboard_PressCStartKeyboard">
+        8 指輕觸下螢幕
+    </x:String>
+    <x:String x:Key="Keyboard_SystemTray">
+        系統匣捷徑
+    </x:String>
+    <x:String x:Key="Keyboard_WallpaperText">
+        虛擬鍵盤主題
+    </x:String>
+    <x:String x:Key="Touchpad_Subtitle">
+        快速開啟觸控板，方便您精準控制游標
+    </x:String>
+    <x:String x:Key="Touchpad_Text">
+        選擇開啟虛擬觸控板的方式：
+    </x:String>
+    <x:String x:Key="Touchpad_PressCStartTouchpad">
+        三指輕觸下螢幕
+    </x:String>
+    <x:String x:Key="Touchpad_SystemTrayVirtualTouchpad">
+        系統匣捷徑
+    </x:String>
+    <x:String x:Key="WonderBar_Subtitle">
+        與下螢幕中的鍵盤搭配使用，小工具顯示在鍵盤上方。
+    </x:String>
+    <x:String x:Key="WonderBar_Text">
+        在以下情景中顯示小工具欄：
+    </x:String>
+    <x:String x:Key="WonderBar_WKShowWonderBar">
+        使用 Windows 觸控鍵盤時
+    </x:String>
+    <x:String x:Key="AppLauncher_Subtitle">
+        建議目前情境下最常用的應用程式
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowAppLauncher">
+        裝置模式變更時，將為您推薦適合的應用程式組合
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowMeeting">
+        使用 Teams、Zoom 開會時，快速啟動筆記軟體，方便建立會議記錄
+    </x:String>
+    <x:String x:Key="FloatingButton_Subtitle">
+        顯示在桌面的捷徑功能表
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOff">
+        已關閉
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOn">
+        已開啟
+    </x:String>
+    <x:String x:Key="FloatingButton_Text">
+        選擇懸浮球中的功能（至少選擇 2 個）：
+    </x:String>
+    <x:String x:Key="UserCenterTitle">
+        使用者中心
+    </x:String>
+    <x:String x:Key="Cover_Title">
+        合蓋保護提醒
+    </x:String>
+    <x:String x:Key="Cover_Subtitle">
+        合蓋時，如果藍牙鍵盤仍然放置在下螢幕上，將播放聲音提醒，以免損壞螢幕
+    </x:String>
+    <x:String x:Key="GameAssistant_Subtitle">
+        配置網頁鏈結。當特定遊戲平台啟動時，自動在另一個螢幕中開啟儲存的網頁，方便您一邊遊戲，一邊查看攻略。
+    </x:String>
+    <x:String x:Key="GameAssistant_XboxGame">
+        開啟 Xbox 後，要在下螢幕顯示的網頁
+    </x:String>
+    <x:String x:Key="GameAssistant_SteamGame">
+        開啟 Steam 後，要在下螢幕顯示的網頁
+    </x:String>
+    <x:String x:Key="Waterfall_Subtitle">
+        五指輕觸螢幕，即可跨螢幕以全螢幕模式顯示目前的視窗
+    </x:String>
+    <x:String x:Key="UserCenter_Auxiliary">
+        新功能預覽
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateText">
+        新版本 {0} 已下載，目前版本為 {1}，是否要更新？
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateButton">
+        立即更新
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionTitle">
+        使用者體驗計劃
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionText">
+        匿名提供應用程式中的行為資料，協助我們持續最佳化產品，提升使用者體驗
+    </x:String>
+    <x:String x:Key="UserCenter_QRCode">
+        掃描 QR 碼，立即加入 Yoga Book 9 社群
+    </x:String>
+    <x:String x:Key="Setting_PrivacyAgreementButtonText">
+        隱私權原則
+    </x:String>
+    <x:String x:Key="Setting_Version">
+        版本：
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Keyboard">
+        虛擬鍵盤僅支援雙螢幕橫向模式
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Touchpad">
+        虛擬觸控板僅支援在雙螢幕模式的下螢幕中啟動
+    </x:String>
+    <x:String x:Key="AppLauncherText">
+        裝置模式變更時，將根據目前模式顯示您最常用的應用程式組合，一鍵點擊即可啟動應用程式組合
+    </x:String>
+    <x:String x:Key="KeyboardText">
+        8 指輕觸下螢幕即可快速啟動虛擬鍵盤
+    </x:String>
+    <x:String x:Key="CoverText">
+        請將藍牙鍵盤移走再合蓋，以免損壞螢幕
+    </x:String>
+    <x:String x:Key="PrimaryButton">
+        知道了
+    </x:String>
+    <x:String x:Key="MainText">
+        開啟 Yoga Book 9 使用者中心，快速瞭解獨特的雙螢幕功能
+    </x:String>
+    <x:String x:Key="GoCheckButton">
+        立即開啟
+    </x:String>
+    <x:String x:Key="FormText">
+        根據使用情景變更裝置模式，獲得該情景下的最佳使用體驗
+    </x:String>
+    <x:String x:Key="WindowThrowWindowText">
+        使用手指拖曳視窗頂部標題欄，快速移動到另一個螢幕
+    </x:String>
+    <x:String x:Key="SkipButton">
+        跳過
+    </x:String>
+    <x:String x:Key="DoneButton">
+        完成！
+    </x:String>
+    <x:String x:Key="confirmButton">
+        確認
+    </x:String>
+    <x:String x:Key="MoreButton">
+        進一步瞭解
+    </x:String>
+    <x:String x:Key="WaterfallWindowText">
+        五指輕觸螢幕，即可跨螢幕以全螢幕模式顯示目前的應用程式視窗
+    </x:String>
+    <x:String x:Key="TaskBarText">
+        點擊工作列上的應用程式圖示，直接將其視窗移至該螢幕
+    </x:String>
+    <x:String x:Key="TouchpadWindowText">
+        三指輕觸下螢幕，即可啟動虛擬觸控板，然後即可使用游標進行精準操作
+    </x:String>
+    <x:String x:Key="WonderBarTip">
+        左右滑動即可切換小工具
+    </x:String>
+    <x:String x:Key="KeyboardSizeText">
+        點擊此處設定鍵盤的大小、佈局和樣式
+    </x:String>
+    <x:String x:Key="NextText">
+        下一步
+    </x:String>
+    <x:String x:Key="WonderBarText">
+        您可以隨時在使用者中心的設定中開啟或關閉小工具欄和虛擬鍵盤功能
+    </x:String>
+    <x:String x:Key="KeyboardPrimaryTip">
+        開啟設定
+    </x:String>
+    <x:String x:Key="KeyboardSecondaryTip">
+        完成
+    </x:String>
+    <x:String x:Key="LayoutFristText">
+        移動到另一個螢幕
+    </x:String>
+    <x:String x:Key="BrightnessText">
+        分別調整每個螢幕的亮度，或快速關閉螢幕
+    </x:String>
+    <x:String x:Key="LayoutSecondText">
+        在此位置停留可顯示佈局選項
+    </x:String>
+    <x:String x:Key="SnapLayoutTipText">
+        點擊這裡可將視窗移動到另一個螢幕中的對應位置
+    </x:String>
+    <x:String x:Key="UpdateText">
+        已下載新版本的 Yoga Book Solutions，是否要更新？
+    </x:String>
+    <x:String x:Key="UpdateButton">
+        立即更新
+    </x:String>
+    <x:String x:Key="NoUpdateButton">
+        暫時不要
+    </x:String>
+    <x:String x:Key="Update_FailText">
+        更新失敗，請重試
+    </x:String>
+    <x:String x:Key="Update_RetryButton">
+        重試
+    </x:String>
+    <x:String x:Key="Update_CloseButton">
+        關閉
+    </x:String>
+    <x:String x:Key="WonderBar_UnreadEmail">
+        未讀電子郵件
+    </x:String>
+    <x:String x:Key="WonderBar_AllEmail">
+        所有電子郵件
+    </x:String>
+    <x:String x:Key="WonderBar_Loading">
+        載入中…
+    </x:String>
+    <x:String x:Key="WonderBar_LoadingMore">
+        載入更多…
+    </x:String>
+    <x:String x:Key="WonderBar_NoEmail">
+        無電子郵件
+    </x:String>
+    <x:String x:Key="WonderBar_Refreshing">
+        重新整理
+    </x:String>
+    <x:String x:Key="widget_Weather_RefreshSpan">
+        {0} 前更新
+    </x:String>
+    <x:String x:Key="widget_Weather_Second">
+        剛剛更新
+    </x:String>
+    <x:String x:Key="widget_Weather_Minute">
+        分鐘
+    </x:String>
+    <x:String x:Key="widget_Weather_Hour">
+        小時
+    </x:String>
+    <x:String x:Key="widget_Weather_Day">
+        天
+    </x:String>
+    <x:String x:Key="WonderBar_Weather">
+        天氣
+    </x:String>
+    <x:String x:Key="WonderBar_News">
+        新聞
+    </x:String>
+    <x:String x:Key="WonderBar_Schedule">
+        日程
+    </x:String>
+    <x:String x:Key="WonderBar_System">
+        系統
+    </x:String>
+    <x:String x:Key="WonderBar_Email">
+        電子郵件
+    </x:String>
+    <x:String x:Key="WonderBar_Open">
+        開啟
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternet">
+        無網路
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternetConnection">
+        無網路連線
+    </x:String>
+    <x:String x:Key="WonderBar_NoSchedule">
+        無日程
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallEmail">
+        安裝 Outlook，以在此處顯示電子郵件資訊
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginEmail">
+        登入 Outlook 帳戶，以在此處顯示電子郵件資訊
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallSchedule">
+        安裝 Outlook，以在此處顯示行事曆資訊
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginSchedule">
+        登入 Outlook 帳戶，以在此處顯示行事曆資訊
+    </x:String>
+    <x:String x:Key="WonderBar_PoweredByMSN">
+        天氣資訊來源為 MSN Weather
+    </x:String>
+    <x:String x:Key="WonderBar_TurnOnLocationPermission">
+        無法取得您的位置資訊，請授與位置權限。
+    </x:String>
+    <x:String x:Key="Setting_Dialog_Title">
+        您目前的顯示器設定可能會影響跨螢幕瀏覽、視窗管理的部分功能，建議您變更回預設值。
+    </x:String>
+    <x:String x:Key="Setting_Dialog_CloseButtonText">
+        保留修改
+    </x:String>
+    <x:String x:Key="Setting_Dialog_PrimaryButtonText">
+        還原預設值
+    </x:String>
+    <x:String x:Key="SecondaryButton">
+        別再提醒
+    </x:String>
+    <x:String x:Key="AppContextMenu_Open">
+        開啟
+    </x:String>
+    <x:String x:Key="WonderBar_OpenOutlook">
+        開啟 Outlook 以檢視更多電子郵件
+    </x:String>
+    <x:String x:Key="AppContextMenu_Exit">
+        退出
+    </x:String>
+    <x:String x:Key="UserCenter_About">
+        關於
+    </x:String>
+    <x:String x:Key="Weather_Loading">
+        正在載入天氣…
+    </x:String>
+    <x:String x:Key="News_Loading">
+        正在載入新聞…
+    </x:String>
+    <x:String x:Key="Email_Loading">
+        正在載入電子郵件…
+    </x:String>
+    <x:String x:Key="Schedule_Loading">
+        正在載入日程…
+    </x:String>
+    <x:String x:Key="MettingLauncher_Title">
+        打開筆記軟體，建立會議記錄
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_Dynamic">
+        動態
+    </x:String>
+    <x:String x:Key="UserCenter_BBS">
+        歡迎造訪 Yoga Book 9 社群，您的心聲對我們至關重要，請在這裡留下您的評論或問題。
+    </x:String>
+    <x:String x:Key="UserCenter_BBSButton">
+        造訪 Yoga Book 9 論壇
+    </x:String>
+    <x:String x:Key="Setting_Dialog">
+        顯示設定提醒
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_ComingSoon">
+        敬請期待
+    </x:String>
+    <x:String x:Key="WonderBarSubtitle">
+        當藍牙鍵盤放置在下螢幕，或啟動了虛擬鍵盤，小工具欄會顯示在鍵盤上方。
+    </x:String>
+    <x:String x:Key="UserCenter_Answer">
+        常見問題
+    </x:String>
+    <x:String x:Key="AnswerWidget_All">
+        全部
+    </x:String>
+    <x:String x:Key="LenovoAgreementLicense">
+        授權協議
+    </x:String>
+    <x:String x:Key="ThirdPartyNotice">
+        第三方協議
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarTitle">
+        日程或新聞小工具
+    </x:String>
+    <x:String x:Key="UserCenter_PKBShowWonderBar">
+        使用虛擬鍵盤時
+    </x:String>
+    <x:String x:Key="UserCenter_BKShowWonderBar">
+        在下螢幕使用藍牙鍵盤時
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarFocusText">
+        焦點視窗（勾選時，自動將焦點視窗移至 Wondar Bar 區域；不勾選時，自動將焦點視窗移至上螢幕）
+    </x:String>
+    <x:String x:Key="UserCenter_HeaderText">
+        歡迎使用 Yoga Book 9 使用者中心
+    </x:String>
+    <x:String x:Key="UserCenter_ContentText">
+        在使用者中心中，您可以閱讀有關 Yoga Book 9 的最佳實務應用和功能，或設定雙螢幕功能。
+    </x:String>
+    <x:String x:Key="UserCenter_AgreeText">
+        我已瞭解並同意
+    </x:String>
+    <x:String x:Key="UserCenter_LenovoPrivacyStatement">
+        Lenovo 隱私權聲明
+    </x:String>
+    <x:String x:Key="UserCenter_Join">
+        加入使用者體驗計劃
+    </x:String>
+    <x:String x:Key="UserCenter_TryNow">
+        立即體驗
+    </x:String>
+
+</ResourceDictionary>
+

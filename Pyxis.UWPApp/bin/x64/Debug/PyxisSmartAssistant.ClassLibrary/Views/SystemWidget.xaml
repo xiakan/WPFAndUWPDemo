@@ -1,0 +1,219 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="PyxisSmartAssistant.ClassLibrary.Views.SystemWidget"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:customControl="using:PyxisSmartAssistant.ClassLibrary.CustomControl"
+    mc:Ignorable="d"
+    d:DesignWidth="400"
+    d:DesignHeight="200"
+    Padding="4,12"
+    >
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:ConnectionId='2' Height="160" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                                               >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="21"/>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="21"/>
+                <ColumnDefinition Width="160"/>
+            </Grid.ColumnDefinitions>
+
+
+            <!--CPU-->
+            <Grid Grid.Column="0">
+                <Ellipse Width="160" Height="160" Fill="{ThemeResource AppProgressRingBackground}"/>
+                <Ellipse Width="140" Height="140" Fill="{ThemeResource AppRingLinearGradientBrush}" />
+                <Path Margin="10,10,0,0" StrokeThickness="8" Stroke="#257EFF" StrokeStartLineCap="Round" StrokeEndLineCap="Round">
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathFigure StartPoint="70,0">
+                                <ArcSegment x:ConnectionId='24' 
+                                        Size="70,70"
+                                        SweepDirection="Counterclockwise"
+                                                                                                    
+                                                                                                             />
+                            </PathFigure>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="14" FontWeight="Bold" Foreground="#257EFF" HorizontalAlignment="Center">
+                        CPU
+                    </TextBlock>
+                    <TextBlock Margin="0,4" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center" >
+                        <Run x:ConnectionId='23'                                                         /><Run>%</Run>
+                    </TextBlock>
+                    <TextBlock FontSize="10" Foreground="Gray" HorizontalAlignment="Center">
+                        <Run x:ConnectionId='21'                                                         />
+                        <Run>/</Run>  
+                        <Run x:ConnectionId='22'                                                         />
+                        <Run>GHz</Run>
+                    </TextBlock>
+                    <ContentControl Height="12"/>
+                </StackPanel>
+            </Grid>
+
+
+            <!--GPU-->
+            <Grid Grid.Column="2">
+                <Ellipse Width="160" Height="160" Fill="{ThemeResource AppProgressRingBackground}"/>
+                <Ellipse Width="140" Height="140" Fill="{ThemeResource AppRingLinearGradientBrush}" />
+                <Path Margin="10,10,0,0" StrokeThickness="8" Stroke="#EF4B49" StrokeStartLineCap="Round" StrokeEndLineCap="Round">
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathFigure StartPoint="70,0">
+                                <ArcSegment x:ConnectionId='20' 
+                                        Size="70,70"
+                                        SweepDirection="Counterclockwise"
+                                                                                                    
+                                                                                                             />
+                            </PathFigure>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="14" FontWeight="Bold" Foreground="#EF4B49" HorizontalAlignment="Center">
+                        GPU
+                    </TextBlock>
+                    <TextBlock Margin="0,4" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center" >
+                        <Run x:ConnectionId='19'                                                        /><Run>%</Run>
+                    </TextBlock>
+                    <TextBlock FontSize="10" Foreground="Gray" HorizontalAlignment="Center">
+                        <Run x:ConnectionId='17'                                                          />
+                        <Run>/</Run>  
+                        <Run x:ConnectionId='18'                                                          />
+                        <Run>GB</Run>
+                    </TextBlock>
+                    <ContentControl Height="12"/>
+                </StackPanel>
+            </Grid>
+
+
+            <!--RAM-->
+            <Grid Grid.Column="4">
+                <Ellipse Width="160" Height="160" Fill="{ThemeResource AppProgressRingBackground}"/>
+                <Ellipse Width="140" Height="140" Fill="{ThemeResource AppRingLinearGradientBrush}" />
+                <Path Margin="10,10,0,0" StrokeThickness="8" Stroke="#ECBE4F" StrokeStartLineCap="Round" StrokeEndLineCap="Round">
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathFigure StartPoint="70,0">
+                                <ArcSegment x:ConnectionId='16' 
+                                        Size="70,70"
+                                        SweepDirection="Counterclockwise"
+                                                                                                    
+                                                                                                             />
+                            </PathFigure>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="14" FontWeight="Bold" Foreground="#ECBE4F" HorizontalAlignment="Center">
+                        RAM
+                    </TextBlock>
+                    <TextBlock Margin="0,4" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center" >
+                        <Run x:ConnectionId='15'                                                        /><Run>%</Run>
+                    </TextBlock>
+                    <TextBlock FontSize="10" Foreground="Gray" HorizontalAlignment="Center">
+                        <Run x:ConnectionId='13'                                                         />
+                        <Run>/</Run>  
+                        <Run x:ConnectionId='14'                                                         />
+                        <Run>GB</Run>
+                    </TextBlock>
+                    <ContentControl Height="12"/>
+                </StackPanel>
+            </Grid>
+
+
+        </Grid>
+
+
+        <!--NET-->
+        <Border x:ConnectionId='3' Grid.Row="2" CornerRadius="4" 
+                Padding="20,0" 
+                Background="{ThemeResource AppProgressRingBackground}"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                                                                                                 >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="6"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="90"/>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+
+                <PathIcon x:ConnectionId='6' VerticalAlignment="Center"
+                                                                                                         >
+                    <PathIcon.Data>
+                        M11.999,21C7.064,20.993 3.006,16.935 2.999,12C2.992,9.613 3.943,7.319 5.636,5.636C7.32,3.944 9.612,2.995 11.999,3C16.754,2.997 20.731,6.766 20.984,11.514C19.886,10.539 18.467,10 16.999,10C16.11,9.998 15.232,10.195 14.429,10.576L14.429,10.57L14.421,10.496L9.579,10.496C9.526,10.994 9.5,11.495 9.5,11.996C9.499,12.749 9.559,13.501 9.678,14.245L11.259,14.245C11.111,14.732 11.025,15.236 11.004,15.745L10.026,15.745C10.155,16.169 10.318,16.581 10.513,16.979C10.732,17.456 11.045,17.885 11.432,18.239C11.858,19.294 12.576,20.207 13.501,20.87C13.005,20.955 12.502,20.999 11.999,21ZM17,11C19.761,11 22,13.239 22,16C22,18.761 19.761,21 17,21C14.239,21 12,18.761 12,16C12,13.239 14.239,11 17,11ZM20.051,14.286L15.286,19.051C15.793,19.337 16.378,19.5 17,19.5C18.93,19.5 20.5,17.93 20.5,16C20.5,15.378 20.337,14.793 20.051,14.286ZM5.504,15.75C6.561,17.572 8.334,18.87 10.39,19.326C9.422,18.34 8.754,17.1 8.463,15.749L5.504,15.749L5.504,15.75ZM19.05,13.165C18.474,12.747 17.765,12.5 17,12.5C15.07,12.5 13.5,14.07 13.5,16C13.5,16.765 13.747,17.474 14.165,18.05L19.05,13.165ZM4.648,10.497C4.548,10.991 4.497,11.493 4.497,11.997C4.497,12.76 4.613,13.518 4.841,14.246L8.159,14.246C8.052,13.502 7.998,12.752 7.999,12C7.999,11.506 8.022,11 8.068,10.5L4.648,10.497ZM10.39,4.674C8.047,5.192 6.088,6.801 5.123,8.998L8.29,8.998C8.528,7.375 9.262,5.865 10.39,4.674ZM13.606,4.674C14.733,5.865 15.467,7.375 15.706,8.998L18.87,8.998C17.907,6.801 15.95,5.193 13.608,4.674L13.606,4.674ZM11.998,5.5C11.552,5.5 10.969,6.095 10.511,7.014C10.203,7.645 9.972,8.311 9.823,8.998L14.17,8.998C14.021,8.312 13.791,7.646 13.485,7.014C13.028,6.095 12.445,5.5 11.999,5.5L11.998,5.5Z
+                    </PathIcon.Data>
+                </PathIcon>
+                <PathIcon x:ConnectionId='7' VerticalAlignment="Center"
+                                                                                                        >
+                    <PathIcon.Data>
+                        M4.25,12.75L4.25,20.264C4.25,20.678 4.586,21.014 5,21.014C5.414,21.014 5.75,20.678 5.75,20.264L5.75,12.75L7,12.75C7.414,12.75 7.75,12.414 7.75,12L7.75,5C7.75,4.586 7.414,4.25 7,4.25L3,4.25C2.586,4.25 2.25,4.586 2.25,5L2.25,12C2.25,12.414 2.586,12.75 3,12.75L4.25,12.75ZM13.25,17.25L13.25,19.31L10.5,19.31C10.086,19.31 9.75,19.646 9.75,20.06C9.75,20.474 10.086,20.81 10.5,20.81L17.5,20.81C17.914,20.81 18.25,20.474 18.25,20.06C18.25,19.646 17.914,19.31 17.5,19.31L14.75,19.31L14.75,17.25L18.996,17.25C20.476,17.274 21.718,16.081 21.75,14.599L21.75,6.909C21.718,5.419 20.476,4.226 18.996,4.25C18.996,4.25 9.865,4.25 9.865,4.25C9.451,4.25 9.115,4.586 9.115,5C9.115,5.414 9.451,5.75 9.865,5.75L19.008,5.75C19.674,5.736 20.228,6.262 20.25,6.919C20.25,6.927 20.25,14.573 20.25,14.573C20.232,15.233 19.677,15.764 19.015,15.75L7.859,15.75C7.445,15.75 7.109,16.086 7.109,16.5C7.109,16.914 7.445,17.25 7.859,17.25L13.25,17.25ZM6.25,5.75L6.25,11.25C6.25,11.25 3.75,11.25 3.75,11.25C3.75,11.25 3.75,5.75 3.75,5.75L6.25,5.75Z
+                    </PathIcon.Data>
+                </PathIcon>
+                <customControl:WlanSignalIcon x:ConnectionId='8' VerticalAlignment="Center"
+                                                                                                         
+                                                                           
+                         />
+
+                <TextBlock x:ConnectionId='9' Grid.Column="1" FontSize="15" VerticalAlignment="Center"
+                           TextTrimming="CharacterEllipsis"
+                                                                     />
+                <TextBlock x:ConnectionId='10' Grid.Column="1" FontSize="15" VerticalAlignment="Center"
+                           TextTrimming="CharacterEllipsis"
+                           Text="{StaticResource WonderBar_NoInternetConnection}"
+                                                                                                          >
+                        <!--No Internet Connection-->
+                </TextBlock>
+
+                <PathIcon Grid.Column="3" VerticalAlignment="Center">
+                    <PathIcon.Data>
+                        M9,16L15,16L15,10L19,10L12,3L5,10L9,10L9,16ZM5,18L19,18L19,20L5,20L5,18Z
+                    </PathIcon.Data>
+                </PathIcon>
+                <TextBlock x:ConnectionId='11' Grid.Column="4" FontSize="15" VerticalAlignment="Center"
+                                                                                            />
+
+                <PathIcon Grid.Column="5" VerticalAlignment="Center">
+                    <PathIcon.Data>
+                        M19,9L15,9L15,3L9,3L9,9L5,9L12,16L19,9ZM5,18L5,20L19,20L19,18L5,18Z
+                    </PathIcon.Data>
+                </PathIcon>
+                <TextBlock x:ConnectionId='12' Grid.Column="6" FontSize="15" VerticalAlignment="Center"
+                                                                                            />
+
+            </Grid>
+        </Border>
+
+
+        <!--Loading-->
+        <StackPanel x:ConnectionId='4' Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                                      >
+            <ContentControl Height="12"/>
+            <!--<customControl:ProgressRing Width="80" Height="80" IsActive="{x:Bind IsLoading, Mode=OneWay}"/>-->
+            <ProgressRing x:ConnectionId='5'                                           />
+            <ContentControl Height="24"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{StaticResource WonderBar_Loading}">
+                <!--Loading...-->
+            </TextBlock>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
+

@@ -1,0 +1,721 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+<Visibility x:Key="UserCenter_QrVisibility">Collapsed</Visibility>
+<Visibility x:Key="UserCenter_BBSVisibility">Visible</Visibility>
+    <StaticResource x:Key="UserCenter_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="UserCenter_Shortcut" ResourceKey="ShortcutTitle"/>
+    <StaticResource x:Key="UserCenter_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="UserCenter_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="UserCenter_WindowsManager" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="UserCenter_Setting" ResourceKey="Setting"/>
+    <StaticResource x:Key="Layout_Title" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="Touchpad_Title" ResourceKey="TouchpadTitle" />
+    <StaticResource x:Key="WonderBar_Title" ResourceKey="WonderBarTitle" />
+    <StaticResource x:Key="AppLauncher_Title" ResourceKey="AppLauncherTitle" />
+    <StaticResource x:Key="FloatingButton_Title" ResourceKey="FloatingButtonTitle" />
+    <StaticResource x:Key="Waterfall_Title" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="FloatingButton_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="FloatingButton_Launcher" ResourceKey="AppLauncherTitle"/>
+    <StaticResource x:Key="FloatingButton_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="FloatingButton_Touchpad" ResourceKey="TouchpadTitle"/>
+    <StaticResource x:Key="FloatingButton_Waterfall" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Brightness" ResourceKey="BrightnessTitle" />
+    <StaticResource x:Key="FloatingButton_UserCenter" ResourceKey="UserCenterTitle" />
+    <StaticResource x:Key="GameAssistant_Title" ResourceKey="GameAssistantTitle" />
+    <x:String x:Key="WindowTitle">
+        Yoga Book 9 User Center
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Monday">
+        Monday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Tuesday">
+        Tuesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Wednesday">
+        Wednesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Thursday">
+        Thursday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Friday">
+        Friday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Saturday">
+        Saturday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Sunday">
+        Sunday
+    </x:String>
+    <x:String x:Key="WonderBar_Ethernet">
+        Ethernet
+    </x:String>
+    <x:String x:Key="FloatingButtonExpandText">
+        Click the floating ball menu to use functions such as notes, readers, and brightness adjustment; click the middle of the floating ball or other areas of the screen to close the floating ball
+    </x:String>
+    <x:String x:Key="FloatingButtonShowText">
+        Click the floating ball to expand the menu
+    </x:String>
+    <x:String x:Key="FloatingButtonText">
+        Click anywhere on the desktop to evoke a floating ball
+    </x:String>
+    <x:String x:Key="ReaderWindowText">
+        Use the pen to swipe from the bottom left corner to the middle to open Reader
+    </x:String>
+    <x:String x:Key="TouchpadText">
+        Three-finger tap anywhere on the screen to open the Quick Trackpad at that location
+    </x:String>
+    <x:String x:Key="WallpaperText">
+        The user center can quickly switch dual-screen themes.
+    </x:String>
+    <x:String x:Key="SmartnoteWindowText">
+        Use the pen to swipe from the bottom right corner to the middle to open Smartnote
+    </x:String>
+    <x:String x:Key="WindowThrowText">
+        Window Toss is complete!
+    </x:String>
+    <x:String x:Key="MoreFunctionButton">
+        Learn more features
+    </x:String>
+    <x:String x:Key="InkcanvasWindowText">
+        Saved to the desktop
+    </x:String>
+    <x:String x:Key="WonderBar_WeatherError">
+        The weather service is abnormal. Please try again later
+    </x:String>
+    <x:String x:Key="UserCenter_Welcom">
+        Dual-Screen Interaction
+    </x:String>
+    <x:String x:Key="UserCenter_Work">
+        Work
+    </x:String>
+    <x:String x:Key="UserCenter_Learn">
+        Study
+    </x:String>
+    <x:String x:Key="UserCenter_Onthego">
+        Mobility
+    </x:String>
+    <x:String x:Key="UserCenter_Collaborate">
+        Collaboration
+    </x:String>
+    <x:String x:Key="UserCenter_Entertain">
+        Entertainment
+    </x:String>
+    <x:String x:Key="UserCenter_Introduce">
+        Features
+    </x:String>
+    <x:String x:Key="WindowsManagerTitle">
+        Window Management
+    </x:String>
+    <x:String x:Key="LayoutTitle">
+        Drag Window to Set Layout
+    </x:String>
+    <x:String x:Key="LayoutSubtitle">
+        Drag a window with your fingers, release it to move it to the other screen, or hold the window while moving to the other screen to place it more precisely.
+    </x:String>
+    <x:String x:Key="OpenButton">
+        Settings
+    </x:String>
+    <x:String x:Key="TaskBarTitle">
+        Focus Click
+    </x:String>
+    <x:String x:Key="TaskbarSubtitle">
+        Tap an open app icon in the Taskbar once or twice to quickly display the app window on the current screen.
+    </x:String>
+    <x:String x:Key="SnapLayoutTitle">
+        Dual Screen Window Layout
+    </x:String>
+    <x:String x:Key="SnapLayoutSubtitle">
+        Hover over the Maximize button with your mouse to place the window in the dual-screen layout.
+    </x:String>
+    <x:String x:Key="ThrowTitle">
+        Window Flick
+    </x:String>
+    <x:String x:Key="ThrowSubtitle">
+        Drag the app title bar with a finger, then flick towards the other screen to display the app in full screen on the second screen.
+    </x:String>
+    <x:String x:Key="WaterfallTitle">
+        Cross-screen Browsing
+    </x:String>
+    <x:String x:Key="WaterfallSubtitle">
+        In dual-screen landscape mode, tap the screen with 5 fingers to display the current app window in full screen mode across screens.
+    </x:String>
+    <x:String x:Key="WindowsKeyboardTitle">
+        Traditional Keyboard
+    </x:String>
+    <x:String x:Key="WindowsKeyboardSubtitle">
+        Tap the lower screen with 8 fingers or tap the text input box to quickly launch the Virtual Keyboard and start typing.
+    </x:String>
+    <x:String x:Key="ExperienceNowButton">
+        Try Now
+    </x:String>
+    <x:String x:Key="KeyboardTitle">
+        Split Keyboard
+    </x:String>
+    <x:String x:Key="KeyboardSubtitle">
+        In Split Keyboard mode, you can customize the keyboard area size and position according to your personal preferences.
+    </x:String>
+    <x:String x:Key="KeyboardOpacityTitle">
+        Keyboard Transparency
+    </x:String>
+    <x:String x:Key="KeyboardOpacitySubtitle">
+        Tap the settings button in the upper-right corner of the Virtual Keyboard to adjust keyboard transparency.
+    </x:String>
+    <x:String x:Key="KeyboardSkinTitle">
+        Change Keyboard theme
+    </x:String>
+    <x:String x:Key="KeyboardSkinSubtitle">
+        Select your Virtual Keyboard theme via Settings in the User Center.
+    </x:String>
+    <x:String x:Key="WonderBarTitle">
+        Widget Bar
+    </x:String>
+    <x:String x:Key="TouchpadTitle">
+        Virtual Touchpad
+    </x:String>
+    <x:String x:Key="TouchpadSubtitle">
+        Activate the Virtual Touchpad by tapping the lower part of the screen with 3 fingers. Use the cursors for precise operations.
+    </x:String>
+    <x:String x:Key="TouchpadSizeTitle">
+        Adjust Virtual Touchpad Size
+    </x:String>
+    <x:String x:Key="TouchpadSizeSubtitle">
+        Drag the Resize button in the upper-left corner of the Virtual Touchpad to resize the Virtual Touchpad.
+    </x:String>
+    <x:String x:Key="TouchpadLowerTitle">
+        Virtual Touchpad and bookmark
+    </x:String>
+    <x:String x:Key="TouchpadLowerSubtitle">
+        With the Virtual Keyboard or Bluetooth keyboard at the top of the lower screen, the Virtual Touchpad and bookmark display below the keyboard. bookmark can expand or collapse, and notes can be pinned to the lock screen interface for easy accessibility.
+    </x:String>
+    <x:String x:Key="ShortcutTitle">
+        Quick Access
+    </x:String>
+    <x:String x:Key="FloatingButtonTitle">
+        Feature Wheel
+    </x:String>
+    <x:String x:Key="FloatingButtonSubtitle">
+        When enabled, the Feature Wheel is displayed on the desktop. Tap it to quickly access features. You can customize the features shown on the Feature Wheel in Settings.
+    </x:String>
+    <x:String x:Key="BrightnessTitle">
+        Brightness
+    </x:String>
+    <x:String x:Key="BrightnessSubtitle">
+        Brightness sliders are displayed for both screens. Adjust screen brightness separately.
+    </x:String>
+    <x:String x:Key="WallpaperTitle">
+        Dual-screen Wallpaper
+    </x:String>
+    <x:String x:Key="WallpaperSubtitle">
+        Apply Dual-Screen dynamic wallpapers designed specifically for the Yoga Book 9.
+    </x:String>
+    <x:String x:Key="AppLauncherTitle">
+        Multi-app Express
+    </x:String>
+    <x:String x:Key="AppLauncherSubtitle">
+        Once applied, it will recommend appropriate applications and layouts according to user habits when the device mode changes.
+    </x:String>
+    <x:String x:Key="ReaderTitle">
+        Smart Reader
+    </x:String>
+    <x:String x:Key="ReaderSubtitle">
+        Get an immersive reading experience for PDF, Mobi, EPUB, and Txt files via the dual-screen customized e-reader.
+    </x:String>
+    <x:String x:Key="ReaderNoteTitle">
+        Reading Notes
+    </x:String>
+    <x:String x:Key="ReaderNoteSubtitle">
+        Create notes for the document you're reading via Smart Note. One screen for reading, the other for note taking.
+    </x:String>
+    <x:String x:Key="ReaderImmersiveTitle">
+        Immersive Reading
+    </x:String>
+    <x:String x:Key="ReaderImmersiveSubtitle">
+        Enter immersive reading mode with one click. Hide toolbars and action buttons to reduce distractions and keep you focused on your reading.
+    </x:String>
+    <x:String x:Key="NoteTitle">
+        Smart Note
+    </x:String>
+    <x:String x:Key="NoteSubtitle">
+        Handwritten note-taking software customized for dual-screen functionality provides an optimal note-taking experience and lets you record thoughts and ideas easily.
+    </x:String>
+    <x:String x:Key="LockScreenNoteTitle">
+        Lock Screen Notes
+    </x:String>
+    <x:String x:Key="LockScreenNoteSubtitle">
+        Hover the stylus over the lock screen to create lock screen notes or Smart bookmarks.
+    </x:String>
+    <x:String x:Key="QuickNoteTitle">
+        Smart bookmarks
+    </x:String>
+    <x:String x:Key="QuickNoteSubtitle">
+        Add bookmark to the lock screen to view important reminders when using your device. Detect time information in your notes and automatically set reminders, where your device will wake up and show reminders at set times.
+    </x:String>
+    <x:String x:Key="ScreenshotTitle">
+        Quick Launch/Screenshots
+    </x:String>
+    <x:String x:Key="ScreenshotSubtitle">
+        Swipe the stylus from screen corner to screen center to quickly launch Smart Note or Quick Screenshots.
+    </x:String>
+    <x:String x:Key="UserCenter_Game">
+        Dual-screen Gaming
+    </x:String>
+    <x:String x:Key="Game1Title">
+        Asphalt 9
+    </x:String>
+    <x:String x:Key="Game1Subtitle">
+        Asphalt 9 is a thrilling racing game that lets you utilize the upper screen for gameplay and driving, with the mini-map on the lower screen.
+    </x:String>
+    <x:String x:Key="Game2Title">
+        Modern Combat 5
+    </x:String>
+    <x:String x:Key="Game2Subtitle">
+        Immerse yourself in exciting gameplay on the upper screen, with a full mini-map on the lower screen for keep track of whats going on around you.
+    </x:String>
+    <x:String x:Key="Game3Title">
+        Dungeon Hunter 5
+    </x:String>
+    <x:String x:Key="Game3Subtitle">
+        Display your game screen on the upper screen, with character controls on the lower screen. Win and move with ease with dual-screen technology.
+    </x:String>
+    <x:String x:Key="GameAssistantTitle">
+        Dual-screen Game Assistant
+    </x:String>
+    <x:String x:Key="GameAssistantSubtitle">
+        When you open Xbox or Steam in Dual-Screen Mode, the other screen automatically opens web pages you have saved, allowing you to view tips and strategies while playing. You can modify web page links by going to Settings in the User Center.
+    </x:String>
+    <x:String x:Key="Setting">
+        Dual-screen Settings
+    </x:String>
+    <x:String x:Key="ResetDisplaySettinButton">
+        Restore default display settings
+    </x:String>
+    <x:String x:Key="Layout_Subtitle">
+        Cross-screen app window movement, layout, and window flick
+    </x:String>
+    <x:String x:Key="Layout_Text">
+        App layout suggestions will be displayed when dragging a window.
+    </x:String>
+    <x:String x:Key="Layout_Mouse">
+        Displayed when you drag a window with the mouse
+    </x:String>
+    <x:String x:Key="Layout_Touch">
+        Displayed when you drag a window with your finger
+    </x:String>
+    <x:String x:Key="Layout_MaximizePanel">
+        Hover your mouse over the Maximize button to bring up dual-screen layout options.
+    </x:String>
+    <x:String x:Key="Layout_TaskBarWindowUseTouch">
+        Tap an open app icon in the Taskbar to quickly display the app window on the current screen.
+    </x:String>
+    <x:String x:Key="Layout_WindowThrow">
+        Drag an app window with your finger and flick it to the other screen.
+    </x:String>
+    <x:String x:Key="Brightness_Title">
+        Dual-screen Brightness
+    </x:String>
+    <x:String x:Key="Brightness_Subtitle">
+        Separately adjust screen brightnesses with sliders.
+    </x:String>
+    <x:String x:Key="Brightness_IsOpenBrightnessContorl">
+        Automatic brightness control popups when system brightness changes.
+    </x:String>
+    <x:String x:Key="Wallpaper_Title">
+        Dual-screen Wallpaper
+    </x:String>
+    <x:String x:Key="Wallpaper_Subtitle">
+        Dual-screen wallpaper auto-adjusts to device orientation and angle.
+    </x:String>
+    <x:String x:Key="Wallpaper_ApplyButton">
+        Apply Now
+    </x:String>
+    <x:String x:Key="Keyboard_Title">
+        Virtual Keyboard
+    </x:String>
+    <x:String x:Key="Keyboard_Subtitle">
+        Touchpad keyboard with adjustable transparency.
+    </x:String>
+    <x:String x:Key="Keyboard_Text">
+        Multiple launch styles for the Virtual Keyboard:
+    </x:String>
+    <x:String x:Key="Keyboard_AutoStartKeyboard">
+        Tap an input box
+    </x:String>
+    <x:String x:Key="Keyboard_PressCStartKeyboard">
+        Tap with 8 fingers on the lower part of the screen to open the Virtual Keyboard and start typing.
+    </x:String>
+    <x:String x:Key="Keyboard_SystemTray">
+        System tray shortcuts
+    </x:String>
+    <x:String x:Key="Keyboard_WallpaperText">
+        Virtual Keyboard theme
+    </x:String>
+    <x:String x:Key="Touchpad_Subtitle">
+        Quick open the touchpad for precise cursor control
+    </x:String>
+    <x:String x:Key="Touchpad_Text">
+        Multiple launch styles for the Virtual Touchpad:
+    </x:String>
+    <x:String x:Key="Touchpad_PressCStartTouchpad">
+        Tap with 3 fingers
+    </x:String>
+    <x:String x:Key="Touchpad_SystemTrayVirtualTouchpad">
+        System tray shortcuts
+    </x:String>
+    <x:String x:Key="WonderBar_Subtitle">
+        With the keyboard displayed on the lower screen, check widgets above the keyboard.
+    </x:String>
+    <x:String x:Key="WonderBar_Text">
+        Widget Bar is displayed when:
+    </x:String>
+    <x:String x:Key="WonderBar_WKShowWonderBar">
+        Using the Windows Touchpad Keyboard
+    </x:String>
+    <x:String x:Key="AppLauncher_Subtitle">
+        The most commonly used application in the current scenario.
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowAppLauncher">
+        When the device mode changes, the multi-app launcher pops up
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowMeeting">
+        When using Teams, Zoom, you can quickly launch note-taking software to take meeting minutes
+    </x:String>
+    <x:String x:Key="FloatingButton_Subtitle">
+        A shortcut menu displayed on the desktop
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOff">
+        Disabled
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOn">
+        Enabled
+    </x:String>
+    <x:String x:Key="FloatingButton_Text">
+        Select features for Feature Wheel (at least two):
+    </x:String>
+    <x:String x:Key="UserCenterTitle">
+        User Center
+    </x:String>
+    <x:String x:Key="Cover_Title">
+        Folding Protection Reminder
+    </x:String>
+    <x:String x:Key="Cover_Subtitle">
+        When folding the device, play an audio reminder when the Bluetooth keyboard is still positioned on the lower screen so that the users will not damage the screen
+    </x:String>
+    <x:String x:Key="GameAssistant_Subtitle">
+        Configure web page links to open web pages (such as game strategies) on the other screen when a specific game platform launches
+    </x:String>
+    <x:String x:Key="GameAssistant_XboxGame">
+        Web page to display when Xbox launches
+    </x:String>
+    <x:String x:Key="GameAssistant_SteamGame">
+        Web page to display when Steam launches
+    </x:String>
+    <x:String x:Key="Waterfall_Subtitle">
+        Tap the screen with 5 fingers to display the current window in full screen mode on both screens
+    </x:String>
+    <x:String x:Key="UserCenter_Auxiliary">
+        New Feature Preview
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateText">
+        New version {0} has been downloaded. Your current version is {1}. Do you want to update?
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateButton">
+        Update Now
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionTitle">
+        User Experience Program
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionText">
+        The User Experience Program collects anonymous information about in-app behavior, helping us continue to optimize our products and improve the user experience
+    </x:String>
+    <x:String x:Key="UserCenter_QRCode">
+        Scan the QR code to join the Yoga Book 9 community
+    </x:String>
+    <x:String x:Key="Setting_PrivacyAgreementButtonText">
+        Privacy Policy
+    </x:String>
+    <x:String x:Key="Setting_Version">
+        Version:
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Keyboard">
+        The Virtual Keyboard only supports dual-screen landscape mode
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Touchpad">
+        The Virtual Touchpad can only be activated on the lower screen in dual-screen mode.
+    </x:String>
+    <x:String x:Key="AppLauncherText">
+        When the device mode changes, your most commonly used apps are displayed according to the current mode. You can change the apps displayed with one click.
+    </x:String>
+    <x:String x:Key="KeyboardText">
+        Tap the lower screen with 8 fingers to quickly launch the Virtual Keyboard
+    </x:String>
+    <x:String x:Key="CoverText">
+        Remove the Bluetooth keyboard before closing the device to prevent damage to the screen
+    </x:String>
+    <x:String x:Key="PrimaryButton">
+        Got It
+    </x:String>
+    <x:String x:Key="MainText">
+        Open Yoga Book 9 User Center to learn more about dual-screen features
+    </x:String>
+    <x:String x:Key="GoCheckButton">
+        Open Now
+    </x:String>
+    <x:String x:Key="FormText">
+        To get the best experience, change the device mode based on how you want to use it
+    </x:String>
+    <x:String x:Key="WindowThrowWindowText">
+        Drag the title bar at the top of a window with your fingers to quickly move it to the other screen
+    </x:String>
+    <x:String x:Key="SkipButton">
+        Skip
+    </x:String>
+    <x:String x:Key="DoneButton">
+        Done
+    </x:String>
+    <x:String x:Key="confirmButton">
+        Confirm
+    </x:String>
+    <x:String x:Key="MoreButton">
+        Learn more
+    </x:String>
+    <x:String x:Key="WaterfallWindowText">
+        Touch the screen with 5 fingers to display the current app window in full screen mode across screens.
+    </x:String>
+    <x:String x:Key="TaskBarText">
+        Tap an app icon on the Taskbar to move its window to the current screen
+    </x:String>
+    <x:String x:Key="TouchpadWindowText">
+        Tap the lower screen with 3 fingers to activate the Virtual Touchpad for more precise cursor control
+    </x:String>
+    <x:String x:Key="WonderBarTip">
+        Swipe to the left or right to switch between widgets
+    </x:String>
+    <x:String x:Key="KeyboardSizeText">
+        Click here to set the size, layout and style of the keyboard
+    </x:String>
+    <x:String x:Key="NextText">
+        Next
+    </x:String>
+    <x:String x:Key="WonderBarText">
+        Open or close the Widget Bar and Virtual Keyboard in Settings under User Center
+    </x:String>
+    <x:String x:Key="KeyboardPrimaryTip">
+        Open Settings
+    </x:String>
+    <x:String x:Key="KeyboardSecondaryTip">
+        Done
+    </x:String>
+    <x:String x:Key="LayoutFristText">
+        To other screen
+    </x:String>
+    <x:String x:Key="BrightnessText">
+        Adjust the brightness of each screen individually or quickly turn off a screen
+    </x:String>
+    <x:String x:Key="LayoutSecondText">
+        Hold to display the layout options
+    </x:String>
+    <x:String x:Key="SnapLayoutTipText">
+        Click here to move the window to the other screen
+    </x:String>
+    <x:String x:Key="UpdateText">
+        The new version of Yoga Book Solutions has been downloaded. Do you want to update?
+    </x:String>
+    <x:String x:Key="UpdateButton">
+        Update Now
+    </x:String>
+    <x:String x:Key="NoUpdateButton">
+        Not Now
+    </x:String>
+    <x:String x:Key="Update_FailText">
+        Update failed. Try again.
+    </x:String>
+    <x:String x:Key="Update_RetryButton">
+        Retry
+    </x:String>
+    <x:String x:Key="Update_CloseButton">
+        Close
+    </x:String>
+    <x:String x:Key="WonderBar_UnreadEmail">
+        Unread Emails
+    </x:String>
+    <x:String x:Key="WonderBar_AllEmail">
+        All Emails
+    </x:String>
+    <x:String x:Key="WonderBar_Loading">
+        Loading…
+    </x:String>
+    <x:String x:Key="WonderBar_LoadingMore">
+        Load more…
+    </x:String>
+    <x:String x:Key="WonderBar_NoEmail">
+        No emails
+    </x:String>
+    <x:String x:Key="WonderBar_Refreshing">
+        Refresh
+    </x:String>
+    <x:String x:Key="widget_Weather_RefreshSpan">
+        Updated {0} ago
+    </x:String>
+    <x:String x:Key="widget_Weather_Second">
+        Just updated
+    </x:String>
+    <x:String x:Key="widget_Weather_Minute">
+        minute(s)
+    </x:String>
+    <x:String x:Key="widget_Weather_Hour">
+        hour(s)
+    </x:String>
+    <x:String x:Key="widget_Weather_Day">
+        day(s)
+    </x:String>
+    <x:String x:Key="WonderBar_Weather">
+        Weather
+    </x:String>
+    <x:String x:Key="WonderBar_News">
+        News
+    </x:String>
+    <x:String x:Key="WonderBar_Schedule">
+        Agenda
+    </x:String>
+    <x:String x:Key="WonderBar_System">
+        System
+    </x:String>
+    <x:String x:Key="WonderBar_Email">
+        Email
+    </x:String>
+    <x:String x:Key="WonderBar_Open">
+        Open
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternet">
+        No network
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternetConnection">
+        No network connection
+    </x:String>
+    <x:String x:Key="WonderBar_NoSchedule">
+        No agenda
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallEmail">
+        Install Outlook to display email information here
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginEmail">
+        Log in to your Outlook account to display email information here
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallSchedule">
+        Install Outlook to display calendar information here
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginSchedule">
+        Log in to your Outlook Account to display calendar information here
+    </x:String>
+    <x:String x:Key="WonderBar_PoweredByMSN">
+        Weather information obtained from MSN Weather
+    </x:String>
+    <x:String x:Key="WonderBar_TurnOnLocationPermission">
+        Can't access your location. Please turn on location permissions.
+    </x:String>
+    <x:String x:Key="Setting_Dialog_Title">
+        Your current display settings may affect some Cross-screen Browsing and Window Manager features. We recommend you change them back to the default settings.
+    </x:String>
+    <x:String x:Key="Setting_Dialog_CloseButtonText">
+        Retain modifications
+    </x:String>
+    <x:String x:Key="Setting_Dialog_PrimaryButtonText">
+        Restore default settings
+    </x:String>
+    <x:String x:Key="SecondaryButton">
+        Don't Remind Me
+    </x:String>
+    <x:String x:Key="AppContextMenu_Open">
+        Open
+    </x:String>
+    <x:String x:Key="WonderBar_OpenOutlook">
+        Open Outlook to view more emails
+    </x:String>
+    <x:String x:Key="AppContextMenu_Exit">
+        Exit
+    </x:String>
+    <x:String x:Key="UserCenter_About">
+        About
+    </x:String>
+    <x:String x:Key="Weather_Loading">
+        Loading weather...
+    </x:String>
+    <x:String x:Key="News_Loading">
+        Loading news...
+    </x:String>
+    <x:String x:Key="Email_Loading">
+        Loading email...
+    </x:String>
+    <x:String x:Key="Schedule_Loading">
+        Loading schedule...
+    </x:String>
+    <x:String x:Key="MettingLauncher_Title">
+        Open the Smart Note and take meeting notes.
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_Dynamic">
+        Live
+    </x:String>
+    <x:String x:Key="UserCenter_BBS">
+        Welcome to the Yoga Book 9 community. Your opinions are important to us, so please post your comments and questions here.
+    </x:String>
+    <x:String x:Key="UserCenter_BBSButton">
+        Visit the Yoga Book 9 Forum
+    </x:String>
+    <x:String x:Key="Setting_Dialog">
+        Show Settings Reminder
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_ComingSoon">
+        Coming Soon
+    </x:String>
+    <x:String x:Key="WonderBarSubtitle">
+        When a Bluetooth keyboard is placed near the lower screen or the Virtual Keyboard is activated, the Widget Bar appears above the keyboard
+    </x:String>
+    <x:String x:Key="UserCenter_Answer">
+        FAQ
+    </x:String>
+    <x:String x:Key="AnswerWidget_All">
+        All
+    </x:String>
+    <x:String x:Key="LenovoAgreementLicense">
+        Lenovo Agreement License
+    </x:String>
+    <x:String x:Key="ThirdPartyNotice">
+        Third Party Notice
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarTitle">
+        Agenda or News Widget
+    </x:String>
+    <x:String x:Key="UserCenter_PKBShowWonderBar">
+        Using the Virtual Keyboard
+    </x:String>
+    <x:String x:Key="UserCenter_BKShowWonderBar">
+        Using the Bluetooth keyboard
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarFocusText">
+        Focus window (If checked, the  focus window is automatically moved to Wondar Bar area;if unchecked, the focus window is automatically moved to the upper screen)
+    </x:String>
+    <x:String x:Key="UserCenter_HeaderText">
+        Welcome to the Yoga Book 9 User Center
+    </x:String>
+    <x:String x:Key="UserCenter_ContentText">
+        In the User Center, you can read about Yoga Book 9 best practices and features or set up the dual-screen function.
+    </x:String>
+    <x:String x:Key="UserCenter_AgreeText">
+        I understand and agree to the
+    </x:String>
+    <x:String x:Key="UserCenter_LenovoPrivacyStatement">
+        Lenovo Privacy Statement
+    </x:String>
+    <x:String x:Key="UserCenter_Join">
+        Join the User Experience Program
+    </x:String>
+    <x:String x:Key="UserCenter_TryNow">
+        Try It Now
+    </x:String>
+
+</ResourceDictionary>
+

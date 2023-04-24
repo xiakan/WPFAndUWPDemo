@@ -1,0 +1,84 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Name="UserControl"
+    x:Class="PyxisSmartAssistant.ClassLibrary.CustomControl.BrightnessBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:PyxisSmartAssistant.ClassLibrary.CustomControl"
+    mc:Ignorable="d"  
+    d:DesignHeight="50" 
+    d:DesignWidth="200"
+    Height="40" 
+    >
+
+    <UserControl.Resources>
+        <local:IsEnabledBrushConverter x:Key="IsEnabledBrushConverter"/>
+        <local:PercentageConverter x:Key="PercentageConverter"/>
+    </UserControl.Resources>
+
+    <Border CornerRadius="6" Height="40" Background="#1AFFFFFF">
+        <Grid Margin="12,0,8,0" Height="40" ColumnSpacing="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <!--<ColumnDefinition Width="40"/>-->
+            </Grid.ColumnDefinitions>
+
+            <Canvas Width="20" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <Rectangle  RadiusX="2" RadiusY="2" Width="20" Height="20" StrokeThickness="1" Stroke="#DCDCDC" />
+                <Rectangle x:ConnectionId='3' x:Name="Rectangle"  Opacity="0.8" RadiusX="1" RadiusY="1" Fill="#DCDCDC"/>
+            </Canvas>
+
+            <Slider x:ConnectionId='2' x:Name="Slider" Grid.Column="1" Maximum="100" Width="Auto" MinWidth="100" ThumbToolTipValueConverter="{StaticResource PercentageConverter}" Style="{StaticResource AppAccentSliderStyle}">
+                <!--<UIElement.RenderTransform>
+                    <TranslateTransform X="10"/>
+                </UIElement.RenderTransform>-->
+            </Slider>
+
+            <!--<Button 
+                x:Name="Button" 
+                IsEnabled="False"
+                Visibility="Collapsed"
+                Grid.Column="2" 
+                CornerRadius="0,6,6,0" 
+                Margin="0" 
+                MinWidth="22" 
+                Height="40" 
+                Width="40" 
+                BorderThickness="0" 
+                Click="Button_Click"
+                >
+                <PathIcon Margin="0,0,3,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <PathIcon.Data>
+                        M8.666,3.81C5.302,5.169 3.1,8.434 3.1,12.062C3.1,16.974 7.088,20.962 12,20.962C16.912,20.962 20.9,16.974 20.9,12.062C20.9,8.434 18.698,5.169 15.334,3.81C14.873,3.624 14.348,3.847 14.162,4.308C13.976,4.768 14.199,5.293 14.66,5.479C17.343,6.564 19.1,9.168 19.1,12.062C19.1,15.981 15.919,19.162 12,19.162C8.081,19.162 4.9,15.981 4.9,12.062C4.9,9.168 6.657,6.564 9.34,5.479C9.801,5.293 10.024,4.768 9.840,4.308C9.652,3.847 9.127,3.624 8.666,3.81ZM12.868,10.552L12.932,2.186C12.936,1.69 12.535,1.283 12.039,1.279C11.542,1.276 11.136,1.676 11.132,2.173L11.068,10.539C11.064,11.035 11.465,11.442 11.961,11.445C12.458,11.449 12.864,11.049 12.868,10.552Z
+                    </PathIcon.Data>
+                </PathIcon>
+            </Button>
+
+            <Button 
+                x:Name="AccentButton" 
+                IsEnabled="False"
+                Visibility="Collapsed"
+                Grid.Column="2" 
+                CornerRadius="0,6,6,0" 
+                Margin="0" 
+                MinWidth="22" 
+                Height="40" 
+                Width="40" 
+                BorderThickness="0" 
+                Click="AccentButton_Click"
+                Style="{StaticResource AccentButtonStyle}"
+                >
+                <PathIcon Margin="0,0,3,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <PathIcon.Data>
+                        M8.666,3.81C5.302,5.169 3.1,8.434 3.1,12.062C3.1,16.974 7.088,20.962 12,20.962C16.912,20.962 20.9,16.974 20.9,12.062C20.9,8.434 18.698,5.169 15.334,3.81C14.873,3.624 14.348,3.847 14.162,4.308C13.976,4.768 14.199,5.293 14.66,5.479C17.343,6.564 19.1,9.168 19.1,12.062C19.1,15.981 15.919,19.162 12,19.162C8.081,19.162 4.9,15.981 4.9,12.062C4.9,9.168 6.657,6.564 9.34,5.479C9.801,5.293 10.024,4.768 9.840,4.308C9.652,3.847 9.127,3.624 8.666,3.81ZM12.868,10.552L12.932,2.186C12.936,1.69 12.535,1.283 12.039,1.279C11.542,1.276 11.136,1.676 11.132,2.173L11.068,10.539C11.064,11.035 11.465,11.442 11.961,11.445C12.458,11.449 12.864,11.049 12.868,10.552Z
+                    </PathIcon.Data>
+                </PathIcon>
+            </Button>-->
+
+        </Grid>
+    </Border>
+
+</UserControl>
+

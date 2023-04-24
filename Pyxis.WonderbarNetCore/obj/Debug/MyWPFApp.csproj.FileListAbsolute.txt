@@ -1,0 +1,3 @@
+C:\Users\Yogabook\Desktop\Webview2UpdateDemo\Pyxis.WonderbarNetCore\obj\Debug\MyWPFApp.csproj.AssemblyReference.cache
+C:\Users\Yogabook\Desktop\Webview2UpdateDemo\Pyxis.WonderbarNetCore\obj\Debug\Interop.Microsoft.Office.Interop.Outlook.dll
+C:\Users\Yogabook\Desktop\Webview2UpdateDemo\Pyxis.WonderbarNetCore\obj\Debug\MyWPFApp.csproj.ResolveComReference.cache

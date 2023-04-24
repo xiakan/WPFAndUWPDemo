@@ -1,0 +1,721 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+<Visibility x:Key="UserCenter_QrVisibility">Visible</Visibility>
+<Visibility x:Key="UserCenter_BBSVisibility">Collapsed</Visibility>
+    <StaticResource x:Key="UserCenter_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="UserCenter_Shortcut" ResourceKey="ShortcutTitle"/>
+    <StaticResource x:Key="UserCenter_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="UserCenter_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="UserCenter_WindowsManager" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="UserCenter_Setting" ResourceKey="Setting"/>
+    <StaticResource x:Key="Layout_Title" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="Touchpad_Title" ResourceKey="TouchpadTitle" />
+    <StaticResource x:Key="WonderBar_Title" ResourceKey="WonderBarTitle" />
+    <StaticResource x:Key="AppLauncher_Title" ResourceKey="AppLauncherTitle" />
+    <StaticResource x:Key="FloatingButton_Title" ResourceKey="FloatingButtonTitle" />
+    <StaticResource x:Key="Waterfall_Title" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="FloatingButton_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="FloatingButton_Launcher" ResourceKey="AppLauncherTitle"/>
+    <StaticResource x:Key="FloatingButton_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="FloatingButton_Touchpad" ResourceKey="TouchpadTitle"/>
+    <StaticResource x:Key="FloatingButton_Waterfall" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Brightness" ResourceKey="BrightnessTitle" />
+    <StaticResource x:Key="FloatingButton_UserCenter" ResourceKey="UserCenterTitle" />
+    <StaticResource x:Key="GameAssistant_Title" ResourceKey="GameAssistantTitle" />
+    <x:String x:Key="WindowTitle">
+        Yoga Book 9 User Center
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Monday">
+        星期一
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Tuesday">
+        星期二
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Wednesday">
+        星期三
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Thursday">
+        星期四
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Friday">
+        星期五
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Saturday">
+        星期六
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Sunday">
+        星期日
+    </x:String>
+    <x:String x:Key="WonderBar_Ethernet">
+        有线网
+    </x:String>
+    <x:String x:Key="FloatingButtonExpandText">
+        点击悬浮球菜单使用笔记，阅读器，调节亮度等功能；点击悬浮球中间或屏幕其它区域收起悬浮球
+    </x:String>
+    <x:String x:Key="FloatingButtonShowText">
+        点击悬浮球展开菜单
+    </x:String>
+    <x:String x:Key="FloatingButtonText">
+        点击桌面任意区域，唤起悬浮球
+    </x:String>
+    <x:String x:Key="ReaderWindowText">
+        使用笔从左下角向中间滑动，打开 Reader
+    </x:String>
+    <x:String x:Key="TouchpadText">
+        三指点击屏幕任意位置，在该位置打开快速触控板
+    </x:String>
+    <x:String x:Key="WallpaperText">
+        用户中心可快速切换双屏主题。
+    </x:String>
+    <x:String x:Key="SmartnoteWindowText">
+        使用笔从右下角向中间滑动，打开 Smartnote
+    </x:String>
+    <x:String x:Key="WindowThrowText">
+        已完成“窗口抛掷”！
+    </x:String>
+    <x:String x:Key="MoreFunctionButton">
+        了解更多功能
+    </x:String>
+    <x:String x:Key="InkcanvasWindowText">
+        已保存到桌面
+    </x:String>
+    <x:String x:Key="WonderBar_WeatherError">
+        天气服务异常，请稍后再试
+    </x:String>
+    <x:String x:Key="UserCenter_Welcom">
+        玩转双屏
+    </x:String>
+    <x:String x:Key="UserCenter_Work">
+        工作
+    </x:String>
+    <x:String x:Key="UserCenter_Learn">
+        学习
+    </x:String>
+    <x:String x:Key="UserCenter_Onthego">
+        移动
+    </x:String>
+    <x:String x:Key="UserCenter_Collaborate">
+        协同
+    </x:String>
+    <x:String x:Key="UserCenter_Entertain">
+        娱乐
+    </x:String>
+    <x:String x:Key="UserCenter_Introduce">
+        功能介绍
+    </x:String>
+    <x:String x:Key="WindowsManagerTitle">
+        窗口管理
+    </x:String>
+    <x:String x:Key="LayoutTitle">
+        拖拽窗口分屏
+    </x:String>
+    <x:String x:Key="LayoutSubtitle">
+        手指或鼠标将窗口拖拽到移动部件上，松开后窗口移动到另一块屏幕，或稍作停顿可选择移动到另一屏的位置。
+    </x:String>
+    <x:String x:Key="OpenButton">
+        打开设置
+    </x:String>
+    <x:String x:Key="TaskBarTitle">
+        双屏窗口切换
+    </x:String>
+    <x:String x:Key="TaskbarSubtitle">
+        在下屏打开的应用，点击一下或两下上屏任务栏图标可将应用快速显示到上屏。
+    </x:String>
+    <x:String x:Key="SnapLayoutTitle">
+        双屏窗口布局
+    </x:String>
+    <x:String x:Key="SnapLayoutSubtitle">
+        鼠标悬停在最大化按钮上，可将窗口布局到本屏或另一屏幕的任意位置。
+    </x:String>
+    <x:String x:Key="ThrowTitle">
+        窗口抛掷
+    </x:String>
+    <x:String x:Key="ThrowSubtitle">
+        手指拖动应用标题栏，快速向另一屏抛掷，即可将应用在另一屏全屏显示。
+    </x:String>
+    <x:String x:Key="WaterfallTitle">
+        瀑布屏
+    </x:String>
+    <x:String x:Key="WaterfallSubtitle">
+        双屏横屏模式下，五指轻触屏幕，即可将当前应用窗口双屏全屏显示。
+    </x:String>
+    <x:String x:Key="WindowsKeyboardTitle">
+        常规键盘
+    </x:String>
+    <x:String x:Key="WindowsKeyboardSubtitle">
+        8指轻触下屏，或触控点击输入框，可以快速唤起幽灵键盘，输入内容。
+    </x:String>
+    <x:String x:Key="ExperienceNowButton">
+        立即体验
+    </x:String>
+    <x:String x:Key="KeyboardTitle">
+        分离键盘
+    </x:String>
+    <x:String x:Key="KeyboardSubtitle">
+        可切换幽灵键盘为分离键盘模式，可根据个人习惯调整双手键盘区域的大小和位置。
+    </x:String>
+    <x:String x:Key="KeyboardOpacityTitle">
+        键盘透明度调整
+    </x:String>
+    <x:String x:Key="KeyboardOpacitySubtitle">
+        点击幽灵键盘右上角的设置按钮，即可调整键盘的透明度。
+    </x:String>
+    <x:String x:Key="KeyboardSkinTitle">
+        键盘皮肤切换
+    </x:String>
+    <x:String x:Key="KeyboardSkinSubtitle">
+        可在用户中心的设置页，修改幽灵键盘的皮肤。
+    </x:String>
+    <x:String x:Key="WonderBarTitle">
+        部件栏
+    </x:String>
+    <x:String x:Key="TouchpadTitle">
+        虚拟触控板
+    </x:String>
+    <x:String x:Key="TouchpadSubtitle">
+        三指在下屏轻触，即可启动虚拟触控板，控制光标精确选择。
+    </x:String>
+    <x:String x:Key="TouchpadSizeTitle">
+        调整触控板大小
+    </x:String>
+    <x:String x:Key="TouchpadSizeSubtitle">
+        拖动触控板左上角的调节大小按钮，即可自由调整触控板的大小。
+    </x:String>
+    <x:String x:Key="TouchpadLowerTitle">
+        触控板和书签
+    </x:String>
+    <x:String x:Key="TouchpadLowerSubtitle">
+        当幽灵键盘和蓝牙键盘在下屏上方时，键盘下方显示触控板和书签，书签可打开收起，创建的书签可贴至锁屏界面，方便查看。
+    </x:String>
+    <x:String x:Key="ShortcutTitle">
+        快捷功能
+    </x:String>
+    <x:String x:Key="FloatingButtonTitle">
+        悬浮球
+    </x:String>
+    <x:String x:Key="FloatingButtonSubtitle">
+        启用悬浮球后，悬浮球显示在桌面，点击悬浮球即可快速使用功能，悬浮球中的功能可在设置中自定义选择。
+    </x:String>
+    <x:String x:Key="BrightnessTitle">
+        亮度调节
+    </x:String>
+    <x:String x:Key="BrightnessSubtitle">
+        调节屏幕亮度时，会显示双屏亮度滑动条，可分别调节双屏亮度。
+    </x:String>
+    <x:String x:Key="WallpaperTitle">
+        双屏壁纸
+    </x:String>
+    <x:String x:Key="WallpaperSubtitle">
+        您可以选择为Yoga Book 9专门定制的双屏动态壁纸。
+    </x:String>
+    <x:String x:Key="AppLauncherTitle">
+        智能应用组
+    </x:String>
+    <x:String x:Key="AppLauncherSubtitle">
+        启用功能后，会根据您的使用习惯，在切换笔记本形态时推荐合适的应用和布局。
+    </x:String>
+    <x:String x:Key="ReaderTitle">
+        智能阅读
+    </x:String>
+    <x:String x:Key="ReaderSubtitle">
+        双屏定制化电子阅读器，可双屏沉浸式阅读PDF, Mobi,Epub及Txt文件。
+    </x:String>
+    <x:String x:Key="ReaderNoteTitle">
+        阅读笔记
+    </x:String>
+    <x:String x:Key="ReaderNoteSubtitle">
+        与闪念笔记联动，可创建与当前阅读文件相对应的笔记，一屏阅读，一屏书写。
+    </x:String>
+    <x:String x:Key="ReaderImmersiveTitle">
+        沉浸式阅读
+    </x:String>
+    <x:String x:Key="ReaderImmersiveSubtitle">
+        一键进入沉浸式阅读模式，隐藏工具栏和操作按钮，减少干扰，专注阅读。
+    </x:String>
+    <x:String x:Key="NoteTitle">
+        闪念笔记
+    </x:String>
+    <x:String x:Key="NoteSubtitle">
+        双屏定制化手写笔记软件，极致书写体验，快速记录点滴灵感。
+    </x:String>
+    <x:String x:Key="LockScreenNoteTitle">
+        锁屏笔记
+    </x:String>
+    <x:String x:Key="LockScreenNoteSubtitle">
+        将笔悬停在锁屏界面上，可快速创建锁屏笔记或智能书签。
+    </x:String>
+    <x:String x:Key="QuickNoteTitle">
+        智能书签
+    </x:String>
+    <x:String x:Key="QuickNoteSubtitle">
+        通过手势可将书签贴至锁屏上，随时查看待办事项。智能添加时间提醒。电脑睡眠时，可唤醒设备。
+    </x:String>
+    <x:String x:Key="ScreenshotTitle">
+        快速启动/截图
+    </x:String>
+    <x:String x:Key="ScreenshotSubtitle">
+        触控笔从左下角或右下角向屏幕中央滑动，可快速启动闪念笔记或快速截图。
+    </x:String>
+    <x:String x:Key="UserCenter_Game">
+        双屏游戏
+    </x:String>
+    <x:String x:Key="Game1Title">
+        狂野飙车9
+    </x:String>
+    <x:String x:Key="Game1Subtitle">
+        上屏畅享激情的赛车游戏，下屏小地图帮你更快取得胜利，并可自由选择操控赛车的屏幕。
+    </x:String>
+    <x:String x:Key="Game2Title">
+        现代战争5
+    </x:String>
+    <x:String x:Key="Game2Subtitle">
+        上屏显示惊险刺激的射击比赛，下屏利用小地图洞察先机。
+    </x:String>
+    <x:String x:Key="Game3Title">
+        地牢猎手5
+    </x:String>
+    <x:String x:Key="Game3Subtitle">
+        上屏显示游戏画面，下屏操控游戏角色，利用双屏，更快赢得游戏。
+    </x:String>
+    <x:String x:Key="GameAssistantTitle">
+        双屏游戏助手
+    </x:String>
+    <x:String x:Key="GameAssistantSubtitle">
+        双屏模式下打开Xbox或者Steam时，另一屏可以自动打开您保存的网页，方便一边游戏，一边查看攻略。您可以在用户中心的设置中修改网页链接。
+    </x:String>
+    <x:String x:Key="Setting">
+        双屏设置
+    </x:String>
+    <x:String x:Key="ResetDisplaySettinButton">
+        恢复默认显示设置
+    </x:String>
+    <x:String x:Key="Layout_Subtitle">
+        应用窗口跨屏移动，布局，窗口抛掷
+    </x:String>
+    <x:String x:Key="Layout_Text">
+        拖动窗口时，显示窗口移动部件
+    </x:String>
+    <x:String x:Key="Layout_Mouse">
+        鼠标拖拽窗口时出现
+    </x:String>
+    <x:String x:Key="Layout_Touch">
+        手指拖拽窗口时出现
+    </x:String>
+    <x:String x:Key="Layout_MaximizePanel">
+        鼠标悬停在窗口最大化按钮上，显示移动窗口到另一屏的布局部件
+    </x:String>
+    <x:String x:Key="Layout_TaskBarWindowUseTouch">
+        点击任务栏上已启动的应用图标，将应用窗口快速显示到当前屏幕
+    </x:String>
+    <x:String x:Key="Layout_WindowThrow">
+        手指拖动应用窗口快速向另一屏滑动，即可将应用抛掷到另一屏
+    </x:String>
+    <x:String x:Key="Brightness_Title">
+        双屏亮度调节
+    </x:String>
+    <x:String x:Key="Brightness_Subtitle">
+        使用滑动条分别调节两块屏幕的亮度
+    </x:String>
+    <x:String x:Key="Brightness_IsOpenBrightnessContorl">
+        系统亮度改变时自动弹出亮度调节控件
+    </x:String>
+    <x:String x:Key="Wallpaper_Title">
+        双屏壁纸
+    </x:String>
+    <x:String x:Key="Wallpaper_Subtitle">
+        双屏主题壁纸，可根据双屏形态或开合角度自动变化
+    </x:String>
+    <x:String x:Key="Wallpaper_ApplyButton">
+        立即应用
+    </x:String>
+    <x:String x:Key="Keyboard_Title">
+        幽灵键盘
+    </x:String>
+    <x:String x:Key="Keyboard_Subtitle">
+        可调整透明度的触控键盘
+    </x:String>
+    <x:String x:Key="Keyboard_Text">
+        选择打开幽灵键盘的方式：
+    </x:String>
+    <x:String x:Key="Keyboard_AutoStartKeyboard">
+        触控点击输入框自动启动
+    </x:String>
+    <x:String x:Key="Keyboard_PressCStartKeyboard">
+        8指轻触下屏
+    </x:String>
+    <x:String x:Key="Keyboard_SystemTray">
+        系统托盘快捷方式
+    </x:String>
+    <x:String x:Key="Keyboard_WallpaperText">
+        幽灵键盘皮肤
+    </x:String>
+    <x:String x:Key="Touchpad_Subtitle">
+        可快速打开，方便精确控制光标
+    </x:String>
+    <x:String x:Key="Touchpad_Text">
+        选择打开触控板的方式：
+    </x:String>
+    <x:String x:Key="Touchpad_PressCStartTouchpad">
+        三指轻触下屏
+    </x:String>
+    <x:String x:Key="Touchpad_SystemTrayVirtualTouchpad">
+        系统托盘快捷方式
+    </x:String>
+    <x:String x:Key="WonderBar_Subtitle">
+        与下屏键盘配合使用，显示在键盘上方
+    </x:String>
+    <x:String x:Key="WonderBar_Text">
+        在下面场景下显示部件栏：
+    </x:String>
+    <x:String x:Key="WonderBar_WKShowWonderBar">
+        使用Windows触控键盘时
+    </x:String>
+    <x:String x:Key="AppLauncher_Subtitle">
+        推荐当前场景下最常用的应用
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowAppLauncher">
+        模式转换时打开，推荐适合的应用组合
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowMeeting">
+        使用Teams、Zoom开会时，快速启动笔记软件，方便会议记录
+    </x:String>
+    <x:String x:Key="FloatingButton_Subtitle">
+        显示于桌面的快捷功能菜单
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOff">
+        已关闭
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOn">
+        已打开
+    </x:String>
+    <x:String x:Key="FloatingButton_Text">
+        选择悬浮球中的功能（至少选择2个）：
+    </x:String>
+    <x:String x:Key="UserCenterTitle">
+        用户中心
+    </x:String>
+    <x:String x:Key="Cover_Title">
+        合盖保护提醒
+    </x:String>
+    <x:String x:Key="Cover_Subtitle">
+        合盖时，如果蓝牙键盘仍然放置在下屏上，播放声音提醒，以免合盖损坏屏幕
+    </x:String>
+    <x:String x:Key="GameAssistant_Subtitle">
+        配置网页链接，在启动游戏平台时，自动在另一屏打开保存的网页，方便一边游戏，一边查看攻略
+    </x:String>
+    <x:String x:Key="GameAssistant_XboxGame">
+        打开Xbox后在下屏显示网页
+    </x:String>
+    <x:String x:Key="GameAssistant_SteamGame">
+        打开Steam后在下屏显示网页
+    </x:String>
+    <x:String x:Key="Waterfall_Subtitle">
+        五指轻触屏幕，即可将当前窗口双屏全屏
+    </x:String>
+    <x:String x:Key="UserCenter_Auxiliary">
+        新特性预览
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateText">
+        新版本{0}已下载，当前版本为{1}，是否更新？
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateButton">
+        立即更新
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionTitle">
+        用户体验计划
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionText">
+        匿名反馈应用中的行为数据, 帮助我们继续优化产品，提升用户体验
+    </x:String>
+    <x:String x:Key="UserCenter_QRCode">
+        扫描二维码，立即加入Yoga Book 9 核心用户群
+    </x:String>
+    <x:String x:Key="Setting_PrivacyAgreementButtonText">
+        隐私协议
+    </x:String>
+    <x:String x:Key="Setting_Version">
+        版本号：
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Keyboard">
+        幽灵键盘仅支持双屏横屏模式
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Touchpad">
+        虚拟触控板仅支持双屏模式在下屏启动
+    </x:String>
+    <x:String x:Key="AppLauncherText">
+        笔记本形态发生变化时，会根据当前的笔记本形态显示最常使用的应用组合，一键点击即可启动应用组合
+    </x:String>
+    <x:String x:Key="KeyboardText">
+        8指轻触下屏即可快速唤起幽灵键盘
+    </x:String>
+    <x:String x:Key="CoverText">
+        请将键盘移走再合盖，以免造成屏幕损伤
+    </x:String>
+    <x:String x:Key="PrimaryButton">
+        知道了
+    </x:String>
+    <x:String x:Key="MainText">
+        打开Yoga Book 9 用户中心，快速了解独特的双屏功能
+    </x:String>
+    <x:String x:Key="GoCheckButton">
+        立即打开
+    </x:String>
+    <x:String x:Key="FormText">
+        根据使用场景改变设备形态，获得该场景下的最佳使用体验
+    </x:String>
+    <x:String x:Key="WindowThrowWindowText">
+        使用手指拖拽窗口顶部标题栏，快速移动到另一屏
+    </x:String>
+    <x:String x:Key="SkipButton">
+        跳过
+    </x:String>
+    <x:String x:Key="DoneButton">
+        已完成！
+    </x:String>
+    <x:String x:Key="confirmButton">
+        确认
+    </x:String>
+    <x:String x:Key="MoreButton">
+        了解更多
+    </x:String>
+    <x:String x:Key="WaterfallWindowText">
+        五指轻触屏幕，即可将当前应用窗口双屏全屏显示
+    </x:String>
+    <x:String x:Key="TaskBarText">
+        点击任务栏图标，直接将程序窗口移动到该屏幕
+    </x:String>
+    <x:String x:Key="TouchpadWindowText">
+        三指在下屏轻触，即可启动虚拟触控板，控制光标精确选择
+    </x:String>
+    <x:String x:Key="WonderBarTip">
+        左右滑动切换部件
+    </x:String>
+    <x:String x:Key="KeyboardSizeText">
+        点击此处设置键盘的大小，布局和样式
+    </x:String>
+    <x:String x:Key="NextText">
+        下一步
+    </x:String>
+    <x:String x:Key="WonderBarText">
+        你可以随时在用户中心的设置中打开或关闭部件栏和幽灵键盘功能
+    </x:String>
+    <x:String x:Key="KeyboardPrimaryTip">
+        打开设置
+    </x:String>
+    <x:String x:Key="KeyboardSecondaryTip">
+        完成
+    </x:String>
+    <x:String x:Key="LayoutFristText">
+        移动到另一屏
+    </x:String>
+    <x:String x:Key="BrightnessText">
+        分别调节双屏亮度，或快速关闭屏幕
+    </x:String>
+    <x:String x:Key="LayoutSecondText">
+        在此位置停留，显示布局选项
+    </x:String>
+    <x:String x:Key="SnapLayoutTipText">
+        点击这里可将窗口移动到另一屏对应位置
+    </x:String>
+    <x:String x:Key="UpdateText">
+        已下载新版本Yoga Book Solutions，是否更新？
+    </x:String>
+    <x:String x:Key="UpdateButton">
+        立即更新
+    </x:String>
+    <x:String x:Key="NoUpdateButton">
+        暂不
+    </x:String>
+    <x:String x:Key="Update_FailText">
+        更新失败，请重试
+    </x:String>
+    <x:String x:Key="Update_RetryButton">
+        重试
+    </x:String>
+    <x:String x:Key="Update_CloseButton">
+        关闭
+    </x:String>
+    <x:String x:Key="WonderBar_UnreadEmail">
+        未读邮件
+    </x:String>
+    <x:String x:Key="WonderBar_AllEmail">
+        所有邮件
+    </x:String>
+    <x:String x:Key="WonderBar_Loading">
+        正在加载…
+    </x:String>
+    <x:String x:Key="WonderBar_LoadingMore">
+        加载更多…
+    </x:String>
+    <x:String x:Key="WonderBar_NoEmail">
+        无邮件
+    </x:String>
+    <x:String x:Key="WonderBar_Refreshing">
+        刷新
+    </x:String>
+    <x:String x:Key="widget_Weather_RefreshSpan">
+        {0}前更新
+    </x:String>
+    <x:String x:Key="widget_Weather_Second">
+        刚刚更新
+    </x:String>
+    <x:String x:Key="widget_Weather_Minute">
+        分钟
+    </x:String>
+    <x:String x:Key="widget_Weather_Hour">
+        小时
+    </x:String>
+    <x:String x:Key="widget_Weather_Day">
+        天
+    </x:String>
+    <x:String x:Key="WonderBar_Weather">
+        天气
+    </x:String>
+    <x:String x:Key="WonderBar_News">
+        新闻
+    </x:String>
+    <x:String x:Key="WonderBar_Schedule">
+        日程
+    </x:String>
+    <x:String x:Key="WonderBar_System">
+        系统
+    </x:String>
+    <x:String x:Key="WonderBar_Email">
+        邮件
+    </x:String>
+    <x:String x:Key="WonderBar_Open">
+        打开
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternet">
+        无网络
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternetConnection">
+        无网络连接
+    </x:String>
+    <x:String x:Key="WonderBar_NoSchedule">
+        无日程
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallEmail">
+        安装Outlook邮箱，邮件信息将显示在此处
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginEmail">
+        登录Outlook 帐户，邮件信息将显示在此处
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallSchedule">
+        安装Outlook邮箱，日历信息将显示在此处
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginSchedule">
+        登录Outlook 帐户，日历信息将显示在此处
+    </x:String>
+    <x:String x:Key="WonderBar_PoweredByMSN">
+        天气信息来源于MSN Weather
+    </x:String>
+    <x:String x:Key="WonderBar_TurnOnLocationPermission">
+        未获取到位置信息，请打开位置权限。
+    </x:String>
+    <x:String x:Key="Setting_Dialog_Title">
+        您当前的显示器设置可能会影响瀑布屏、窗口管理的部分功能，建议您修改回默认设置。
+    </x:String>
+    <x:String x:Key="Setting_Dialog_CloseButtonText">
+        保持修改
+    </x:String>
+    <x:String x:Key="Setting_Dialog_PrimaryButtonText">
+        还原默认设置
+    </x:String>
+    <x:String x:Key="SecondaryButton">
+        不再提醒
+    </x:String>
+    <x:String x:Key="AppContextMenu_Open">
+        打开
+    </x:String>
+    <x:String x:Key="WonderBar_OpenOutlook">
+        打开Outlook查看更多邮件
+    </x:String>
+    <x:String x:Key="AppContextMenu_Exit">
+        退出
+    </x:String>
+    <x:String x:Key="UserCenter_About">
+        关于
+    </x:String>
+    <x:String x:Key="Weather_Loading">
+        正在加载天气…
+    </x:String>
+    <x:String x:Key="News_Loading">
+        正在加载新闻…
+    </x:String>
+    <x:String x:Key="Email_Loading">
+        正在加载邮件…
+    </x:String>
+    <x:String x:Key="Schedule_Loading">
+        正在加载日程…
+    </x:String>
+    <x:String x:Key="MettingLauncher_Title">
+        打开笔记软件，做会议记录
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_Dynamic">
+        动态
+    </x:String>
+    <x:String x:Key="UserCenter_BBS">
+        欢迎访问Yoga Book9社区，您的声音对我们很重要，请在那里留下您的评论或问题。
+    </x:String>
+    <x:String x:Key="UserCenter_BBSButton">
+        访问Yoga Book 9论坛
+    </x:String>
+    <x:String x:Key="Setting_Dialog">
+        显示设置提醒
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_ComingSoon">
+        敬请期待
+    </x:String>
+    <x:String x:Key="WonderBarSubtitle">
+        当蓝牙键盘放置在下屏，或启动了幽灵键盘，部件栏会显示在键盘上方。
+    </x:String>
+    <x:String x:Key="UserCenter_Answer">
+        常见问题
+    </x:String>
+    <x:String x:Key="AnswerWidget_All">
+        全部
+    </x:String>
+    <x:String x:Key="LenovoAgreementLicense">
+        许可协议
+    </x:String>
+    <x:String x:Key="ThirdPartyNotice">
+        第三方协议
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarTitle">
+        日程或新闻部件
+    </x:String>
+    <x:String x:Key="UserCenter_PKBShowWonderBar">
+        使用幽灵键盘时显示
+    </x:String>
+    <x:String x:Key="UserCenter_BKShowWonderBar">
+        使用蓝牙键盘时显示
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarFocusText">
+        焦点窗口（勾选时，自动将焦点窗口移动至下屏部件栏区域；不勾选时，自动将焦点窗口移动至上屏）
+    </x:String>
+    <x:String x:Key="UserCenter_HeaderText">
+        欢迎使用Yoga Book 9 用户中心
+    </x:String>
+    <x:String x:Key="UserCenter_ContentText">
+        您可以通过用户中心快速了解Yoga Book 9 的最佳使用实践，了解功能介绍，或者设置双屏功能。
+    </x:String>
+    <x:String x:Key="UserCenter_AgreeText">
+        知晓并同意
+    </x:String>
+    <x:String x:Key="UserCenter_LenovoPrivacyStatement">
+        联想隐私声明
+    </x:String>
+    <x:String x:Key="UserCenter_Join">
+        加入用户体验计划
+    </x:String>
+    <x:String x:Key="UserCenter_TryNow">
+        立即使用
+    </x:String>
+
+</ResourceDictionary>
+

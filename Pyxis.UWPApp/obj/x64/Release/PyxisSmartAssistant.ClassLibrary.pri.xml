@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="PyxisSmartAssistant.ClassLibrary" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="PyxisSmartAssistant.ClassLibrary">
+				<NamedResource name="PyxisSmartAssistant.ClassLibrary.xr.xml" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/PyxisSmartAssistant.ClassLibrary.xr.xml">
+					<Candidate type="Path">
+						<Value>PyxisSmartAssistant.ClassLibrary\PyxisSmartAssistant.ClassLibrary.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="CustomControl">
+					<NamedResource name="BrightnessBar.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/CustomControl/BrightnessBar.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WlanSignalIcon.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/CustomControl/WlanSignalIcon.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Views">
+					<NamedResource name="EmailWidget.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/EmailWidget.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NewsWidget.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/NewsWidget.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ScheduleWidget.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/ScheduleWidget.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SettingWidget.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/SettingWidget.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SystemWidget.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/SystemWidget.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WeatherWidget.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/WeatherWidget.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WonderBarLeftView.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/WonderBarLeftView.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WonderBarLeftView2.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/WonderBarLeftView2.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WonderBarRightView.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/WonderBarRightView.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WonderBarRightView2.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/WonderBarRightView2.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="Pips">
+						<NamedResource name="CloseButton.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/Pips/CloseButton.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PipsPager.xbf" uri="ms-resource://PyxisSmartAssistant.ClassLibrary/Files/PyxisSmartAssistant.ClassLibrary/Views/Pips/PipsPager.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

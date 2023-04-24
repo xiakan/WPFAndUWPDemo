@@ -1,0 +1,2 @@
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.ClassLibrary\Pyxis.ClassLibrary.csproj;x64
+C:\Pyxis\Codes\PyxisSmartAssistant\Pyxis.UWPApp\Pyxis.UWPApp.csproj;x64

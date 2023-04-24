@@ -1,0 +1,231 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="PyxisSmartAssistant.ClassLibrary.Views.EmailWidget"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:models="using:PyxisSmartAssistant.ClassLibrary.Models"
+    xmlns:customControl="using:PyxisSmartAssistant.ClassLibrary.CustomControl"
+    mc:Ignorable="d"
+    d:DesignWidth="400"
+    d:DesignHeight="200"
+                                         
+    >
+
+
+    <FrameworkElement.Resources>
+        <DataTemplate x:Key="DataTemplate"                          >
+            <StackPanel x:ConnectionId='3'>
+                <Grid>
+                    <TextBlock x:ConnectionId='7'                                                             />
+                    <TextBlock x:ConnectionId='8' Grid.Column="1" HorizontalAlignment="Right"                                  />
+                </Grid>
+
+                <TextBlock x:ConnectionId='4' Margin="0,4" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis"                            FontWeight="Bold" Foreground="{ThemeResource SystemColorControlAccentBrush}"
+                                                                  />
+                <TextBlock x:ConnectionId='5' Margin="0,4" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis"                            
+                                                                />
+
+                <TextBlock x:ConnectionId='6' Foreground="Gray" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" HorizontalAlignment="Left" VerticalAlignment="Center"                             />
+            </StackPanel>
+        </DataTemplate>
+        <Style x:Key="ItemContainerStyle" TargetType="ListViewItem">
+            <Setter Property="Height" Value="84"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="12,11"/>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        </Style>
+    </FrameworkElement.Resources>
+
+
+    <Grid Padding="18,14">
+
+
+        <Grid x:ConnectionId='9' x:Name="EmailGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38"/>
+                <RowDefinition Height="8"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel x:ConnectionId='17' Orientation="Horizontal"                                                                           >
+                <Button x:ConnectionId='20' x:Name="UnreadButton"
+                        Padding="0" 
+                        CornerRadius="3" 
+                        BorderThickness="0" 
+                        VerticalAlignment="Stretch" 
+                                                                                        >
+                    <TextBlock 
+                        Margin="14,2"  
+                        CharacterSpacing="14" 
+                        FontSize="16"
+                        FontWeight="Light">  
+                        <Run Text="{StaticResource WonderBar_UnreadEmail}">                     
+                            <!--Unread Email-->                  
+                        </Run><Run x:ConnectionId='22' x:Name="CollectionCountRun" />
+                    </TextBlock>
+                </Button>
+                <ContentControl Width="12"/>
+                <Button x:ConnectionId='21' x:Name="AllButton"              
+                        MinWidth="120"              
+                        Padding="0"              
+                        CornerRadius="3"               
+                        BorderThickness="0"                               
+                        VerticalAlignment="Stretch"               
+                                                                                     >
+                    <TextBlock                  
+                        Margin="14,2"                    
+                        CharacterSpacing="14"                 
+                        FontSize="16"                   
+                        FontWeight="Light">     
+                        <Run Text="{StaticResource WonderBar_AllEmail}">                     
+                            <!--All Email-->                  
+                        </Run>
+                    </TextBlock>
+                </Button>
+            </StackPanel>
+            <ListView x:ConnectionId='18'
+                Grid.Row="2" 
+                IsItemClickEnabled="True"
+                SelectionMode="None"
+                                                    
+                ItemContainerStyle="{StaticResource ItemContainerStyle}"
+                ItemTemplate="{StaticResource DataTemplate}"
+                                                                                                        
+                                              >
+                <ListViewBase.Footer>
+                    <Border Margin="8" Height="60" BorderThickness="0,1,0,0" BorderBrush="Gray">
+                        <TextBlock Margin="8" HorizontalAlignment="Center" Foreground="Gray" Text="{StaticResource WonderBar_OpenOutlook}"/>
+                    </Border>
+                </ListViewBase.Footer>
+            </ListView>
+            <ListView x:ConnectionId='19'
+                Grid.Row="2" 
+                IsItemClickEnabled="True"
+                SelectionMode="None"
+                                                       
+                ItemContainerStyle="{StaticResource ItemContainerStyle}"
+                ItemTemplate="{StaticResource DataTemplate}"
+                                                                                                           
+                                              >
+                <ListViewBase.Footer>
+                    <Border Margin="8" Height="60" BorderThickness="0,1,0,0" BorderBrush="Gray">
+                        <TextBlock Margin="8" HorizontalAlignment="Center" Foreground="Gray" Text="{StaticResource WonderBar_OpenOutlook}"/>
+                    </Border>
+                </ListViewBase.Footer>
+            </ListView>
+        </Grid>
+
+        <!--NoEmail-->
+        <StackPanel x:ConnectionId='10' VerticalAlignment="Center"                                                                                       >
+            <Border CornerRadius="60" Width="120" Height="120" Background="{ThemeResource AppOverlayTipBackground}">
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <Image.Source>
+                        ms-appx:///Images/NoEmail@2x.png
+                    </Image.Source>
+                </Image>
+            </Border>
+            <ContentControl Height="18"/>
+            <TextBlock HorizontalAlignment="Center" Text="{StaticResource WonderBar_NoEmail}">
+                <!--No Email-->
+            </TextBlock>
+        </StackPanel>
+
+        <!--NoInstall-->
+        <StackPanel x:ConnectionId='11' VerticalAlignment="Center"                                                                                         >
+            <Border CornerRadius="60" Width="120" Height="120" Background="{ThemeResource AppOverlayTipBackground}">
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <Image.Source>
+                        ms-appx:///Images/Outlook@2x.png
+                    </Image.Source>
+                </Image>
+            </Border>
+            <ContentControl Height="18"/>
+            <TextBlock HorizontalAlignment="Center" Text="{StaticResource WonderBar_NoInstallEmail}">
+                <!--Install and login to your Outlook acount,and your calendar will show here-->
+            </TextBlock>
+        </StackPanel>
+
+        <!--NoLogin-->
+        <Button x:ConnectionId='12' x:Name="NoLoginButton" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="0" BorderBrush="Transparent" Background="Transparent" 
+                                                                                                       >
+            <StackPanel>
+                <Border CornerRadius="60" Width="120" Height="120" Background="{ThemeResource AppOverlayTipBackground}">
+                    <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <Image.Source>
+                            ms-appx:///Images/Outlook@2x.png
+                        </Image.Source>
+                    </Image>
+                </Border>
+                <ContentControl Height="18"/>
+                <TextBlock HorizontalAlignment="Center" Text="{StaticResource WonderBar_NoLoginEmail}">
+                    <!--Install and login to your Outlook acount,and your calendar will show here-->
+                </TextBlock>
+            </StackPanel>
+        </Button>
+
+        <!--Loading Top-->
+        <Border x:ConnectionId='13' x:Name="LoadingBorder"
+                Grid.Column="0" Grid.ColumnSpan="2"
+                CornerRadius="10" 
+                Background="{ThemeResource SystemControlBackgroundBaseHighBrush}"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Height="32"
+                MinWidth="120"
+                Margin="0,2,-14,0"
+                                                                                                        >
+            <StackPanel Margin="8,0" Orientation="Horizontal" HorizontalAlignment="Center">
+                <!--<customControl:ProgressRing Width="10" Height="10" Thickness="2" IsActive="True"/>-->
+                <ProgressRing IsActive="True"></ProgressRing>
+                <ContentControl Width="10"/>
+                <TextBlock
+                    FontSize="14" 
+                    Foreground="{ThemeResource SystemControlBackgroundAltHighBrush}"
+                    FontWeight="Bold" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Text="{StaticResource WonderBar_Loading}"/>
+            </StackPanel>
+        </Border>
+
+        <!--Loading-->
+        <Border x:ConnectionId='14' x:Name="LoagingBorder"                                                                                        Background="{ThemeResource AppBackground}">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Border CornerRadius="60" Width="200" Height="120" Background="{ThemeResource AppBackground}">
+                    <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <Image.Source>
+                            ms-appx:///Images/Email_Loading.png
+                        </Image.Source>
+                    </Image>
+                </Border>
+                <ContentControl Height="12"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <!--<customControl:ProgressRing Width="10" Height="10" Thickness="2" IsActive="{x:Bind EmailWidgetStateLoadingToBooleanConverter(State), Mode=OneWay}"/>-->
+                    <ProgressRing x:ConnectionId='16'                                                                                  ></ProgressRing>
+                    <ContentControl Width="10"/>
+                    <TextBlock  Text="{StaticResource Email_Loading}">
+                        <!--Loading-->
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        <!--NoInternet Top-->
+        <Border x:ConnectionId='15' Grid.ColumnSpan="2"  x:Name="NoNetWorkBorder"  Height="40" Width="40" Margin="-14,-12" Background="Transparent" HorizontalAlignment="Right" VerticalAlignment="Top"
+                Visibility="Collapsed">
+            <Image HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <Image.Source>
+                    ms-appx:///Images/NoInternetTop.png
+                </Image.Source>
+            </Image>
+        </Border>
+        <!--  
+        <ListView x:Name="StateListView" IsItemClickEnabled="True" HorizontalAlignment="Right">
+            <ListView.Header>
+                <TextBlock Text="{x:Bind State, Mode=OneWay}"/>
+            </ListView.Header>
+        </ListView>
+        -->
+
+    </Grid>
+</UserControl>
+

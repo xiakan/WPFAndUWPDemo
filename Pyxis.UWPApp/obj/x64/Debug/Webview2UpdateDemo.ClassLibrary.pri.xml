@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Webview2UpdateDemo.ClassLibrary" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Webview2UpdateDemo.ClassLibrary">
+				<NamedResource name="MyUserControl1.xbf" uri="ms-resource://Webview2UpdateDemo.ClassLibrary/Files/Webview2UpdateDemo.ClassLibrary/MyUserControl1.xbf">
+					<Candidate type="Path">
+						<Value>Webview2UpdateDemo.ClassLibrary\MyUserControl1.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Webview2UpdateDemo.ClassLibrary.xr.xml" uri="ms-resource://Webview2UpdateDemo.ClassLibrary/Files/Webview2UpdateDemo.ClassLibrary/Webview2UpdateDemo.ClassLibrary.xr.xml">
+					<Candidate type="Path">
+						<Value>Webview2UpdateDemo.ClassLibrary\Webview2UpdateDemo.ClassLibrary.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

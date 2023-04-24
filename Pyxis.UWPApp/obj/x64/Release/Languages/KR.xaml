@@ -1,0 +1,721 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+<Visibility x:Key="UserCenter_QrVisibility">Collapsed</Visibility>
+<Visibility x:Key="UserCenter_BBSVisibility">Visible</Visibility>
+    <StaticResource x:Key="UserCenter_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="UserCenter_Shortcut" ResourceKey="ShortcutTitle"/>
+    <StaticResource x:Key="UserCenter_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="UserCenter_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="UserCenter_WindowsManager" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="UserCenter_Setting" ResourceKey="Setting"/>
+    <StaticResource x:Key="Layout_Title" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="Touchpad_Title" ResourceKey="TouchpadTitle" />
+    <StaticResource x:Key="WonderBar_Title" ResourceKey="WonderBarTitle" />
+    <StaticResource x:Key="AppLauncher_Title" ResourceKey="AppLauncherTitle" />
+    <StaticResource x:Key="FloatingButton_Title" ResourceKey="FloatingButtonTitle" />
+    <StaticResource x:Key="Waterfall_Title" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="FloatingButton_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="FloatingButton_Launcher" ResourceKey="AppLauncherTitle"/>
+    <StaticResource x:Key="FloatingButton_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="FloatingButton_Touchpad" ResourceKey="TouchpadTitle"/>
+    <StaticResource x:Key="FloatingButton_Waterfall" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Brightness" ResourceKey="BrightnessTitle" />
+    <StaticResource x:Key="FloatingButton_UserCenter" ResourceKey="UserCenterTitle" />
+    <StaticResource x:Key="GameAssistant_Title" ResourceKey="GameAssistantTitle" />
+    <x:String x:Key="WindowTitle">
+        Yoga Book 9 User Center
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Monday">
+        Monday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Tuesday">
+        Tuesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Wednesday">
+        Wednesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Thursday">
+        Thursday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Friday">
+        Friday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Saturday">
+        Saturday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Sunday">
+        Sunday
+    </x:String>
+    <x:String x:Key="WonderBar_Ethernet">
+        Ethernet
+    </x:String>
+    <x:String x:Key="FloatingButtonExpandText">
+        Click the floating ball menu to use functions such as notes, readers, and brightness adjustment; click the middle of the floating ball or other areas of the screen to close the floating ball
+    </x:String>
+    <x:String x:Key="FloatingButtonShowText">
+        Click the floating ball to expand the menu
+    </x:String>
+    <x:String x:Key="FloatingButtonText">
+        Click anywhere on the desktop to evoke a floating ball
+    </x:String>
+    <x:String x:Key="ReaderWindowText">
+        Use the pen to swipe from the bottom left corner to the middle to open Reader
+    </x:String>
+    <x:String x:Key="TouchpadText">
+        Three-finger tap anywhere on the screen to open the Quick Trackpad at that location
+    </x:String>
+    <x:String x:Key="WallpaperText">
+        The user center can quickly switch dual-screen themes.
+    </x:String>
+    <x:String x:Key="SmartnoteWindowText">
+        Use the pen to swipe from the bottom right corner to the middle to open Smartnote
+    </x:String>
+    <x:String x:Key="WindowThrowText">
+        Window Toss is complete!
+    </x:String>
+    <x:String x:Key="MoreFunctionButton">
+        Learn more features
+    </x:String>
+    <x:String x:Key="InkcanvasWindowText">
+        Saved to the desktop
+    </x:String>
+    <x:String x:Key="WonderBar_WeatherError">
+        The weather service is abnormal. Please try again later
+    </x:String>
+    <x:String x:Key="UserCenter_Welcom">
+        듀얼 화면 상호 작용
+    </x:String>
+    <x:String x:Key="UserCenter_Work">
+        업무
+    </x:String>
+    <x:String x:Key="UserCenter_Learn">
+        학습
+    </x:String>
+    <x:String x:Key="UserCenter_Onthego">
+        이동성
+    </x:String>
+    <x:String x:Key="UserCenter_Collaborate">
+        공동 작업
+    </x:String>
+    <x:String x:Key="UserCenter_Entertain">
+        엔터테인먼트
+    </x:String>
+    <x:String x:Key="UserCenter_Introduce">
+        기능
+    </x:String>
+    <x:String x:Key="WindowsManagerTitle">
+        창 관리
+    </x:String>
+    <x:String x:Key="LayoutTitle">
+        창을 끌어 레이아웃 설정하기
+    </x:String>
+    <x:String x:Key="LayoutSubtitle">
+        손가락으로 창을 끌었다 놓아 다른 화면으로 옮기거나, 다른 화면으로 창을 계속 잡아서 더 정밀하게 배치할 수 있습니다.
+    </x:String>
+    <x:String x:Key="OpenButton">
+        설정
+    </x:String>
+    <x:String x:Key="TaskBarTitle">
+        포커스 클릭
+    </x:String>
+    <x:String x:Key="TaskbarSubtitle">
+        작업 표시줄을 눌러 화면 간에 앱을 이동합니다.
+    </x:String>
+    <x:String x:Key="SnapLayoutTitle">
+        듀얼 화면 창 레이아웃
+    </x:String>
+    <x:String x:Key="SnapLayoutSubtitle">
+        최대화 버튼 위로 마우스를 가져가면 듀얼 화면 레이아웃에 창을 배치합니다.
+    </x:String>
+    <x:String x:Key="ThrowTitle">
+        창 긋기
+    </x:String>
+    <x:String x:Key="ThrowSubtitle">
+        앱 제목 표시줄을 손가락으로 끌어 다른 화면을 향해 그으면 앱을 두 번째 화면에 전체 화면으로 표시합니다.
+    </x:String>
+    <x:String x:Key="WaterfallTitle">
+        화면 간 브라우징
+    </x:String>
+    <x:String x:Key="WaterfallSubtitle">
+        듀얼 화면 가로 모드에서 손가락 5개로 화면을 누르면 화면 전체에 걸쳐 현재 앱 창을 전체 화면 모드로 표시합니다.
+    </x:String>
+    <x:String x:Key="WindowsKeyboardTitle">
+        일반 키보드
+    </x:String>
+    <x:String x:Key="WindowsKeyboardSubtitle">
+        하단 화면을 손가락 8개로 누르거나 입력 상자를 누르면 가상 키보드를 빠르게 실행하고 입력을 시작할 수 있습니다.
+    </x:String>
+    <x:String x:Key="ExperienceNowButton">
+        지금 시도
+    </x:String>
+    <x:String x:Key="KeyboardTitle">
+        분할 키보드
+    </x:String>
+    <x:String x:Key="KeyboardSubtitle">
+        분할 키보드 모드에서는 키보드 영역 크기 및 위치를 개인 선호에 따라 사용자 정의할 수 있습니다.
+    </x:String>
+    <x:String x:Key="KeyboardOpacityTitle">
+        키보드 투명도
+    </x:String>
+    <x:String x:Key="KeyboardOpacitySubtitle">
+        가상 키보드 오른쪽 상단의 설정 버튼을 눌러 키보드 투명도를 조절합니다.
+    </x:String>
+    <x:String x:Key="KeyboardSkinTitle">
+        키보드 테마 변경
+    </x:String>
+    <x:String x:Key="KeyboardSkinSubtitle">
+        사용자 센터의 설정을 통해 가상 키보드 테마를 선택합니다.
+    </x:String>
+    <x:String x:Key="WonderBarTitle">
+        위젯 바
+    </x:String>
+    <x:String x:Key="TouchpadTitle">
+        가상 터치패드
+    </x:String>
+    <x:String x:Key="TouchpadSubtitle">
+        손가락 3개로 화면의 하단을 눌러 가상 터치패드를 활성화합니다. 커서를 이용해 정밀한 작업을 할 수 있습니다.
+    </x:String>
+    <x:String x:Key="TouchpadSizeTitle">
+        가상 터치패드 크기 조정
+    </x:String>
+    <x:String x:Key="TouchpadSizeSubtitle">
+        가상 터치패드 왼쪽 상단의 크기 조정 버튼을 드래그하여 가상 터치패드 크기를 조정합니다.
+    </x:String>
+    <x:String x:Key="TouchpadLowerTitle">
+        가상 터치패드 및 책갈피
+    </x:String>
+    <x:String x:Key="TouchpadLowerSubtitle">
+        하단 화면 위쪽에 가상 키보드나 Bluetooth 키보드가 있으면 키보드 아래에 가상 터치패드와 책갈피를 표시합니다. 책갈피를 확장하거나 축소할 수 있으며, 메모를 잠금 화면 인터페이스에 고정하여 쉽게 접근할 수 있습니다.
+    </x:String>
+    <x:String x:Key="ShortcutTitle">
+        빠른 액세스
+    </x:String>
+    <x:String x:Key="FloatingButtonTitle">
+        기능 휠
+    </x:String>
+    <x:String x:Key="FloatingButtonSubtitle">
+        사용으로 설정하면 기능 휠이 바탕 화면에 표시됩니다. 기능 휠을 누르면 기능에 빠르게 액세스합니다. 설정에서 기능 휠에 표시할 기능을 사용자 정의할 수 있습니다.
+    </x:String>
+    <x:String x:Key="BrightnessTitle">
+        밝기
+    </x:String>
+    <x:String x:Key="BrightnessSubtitle">
+        두 화면에 각각 밝기 슬라이더가 표시됩니다.
+    </x:String>
+    <x:String x:Key="WallpaperTitle">
+        듀얼 화면 배경 화면
+    </x:String>
+    <x:String x:Key="WallpaperSubtitle">
+        Yoga Book 9 전용으로 특수 제작된 듀얼 화면 동적 배경 화면을 적용합니다.
+    </x:String>
+    <x:String x:Key="AppLauncherTitle">
+        멀티 앱 익스프레스
+    </x:String>
+    <x:String x:Key="AppLauncherSubtitle">
+        이 기능을 적용하면 장치 모드 변경 시 사용자 용도에 따라 적합한 응용 프로그램 및 레이아웃이 권장됩니다.
+    </x:String>
+    <x:String x:Key="ReaderTitle">
+        스마트 리더
+    </x:String>
+    <x:String x:Key="ReaderSubtitle">
+        듀얼 화면 맞춤형 전자책 리더를 통해 PDF, Mobi, EPUB 및 Txt 파일을 읽을 때 몰입감 높은 환경을 제공합니다.
+    </x:String>
+    <x:String x:Key="ReaderNoteTitle">
+        읽기 메모
+    </x:String>
+    <x:String x:Key="ReaderNoteSubtitle">
+        스마트 메모를 이용해 읽고 있는 문서에 대해 메모를 작성할 수 있습니다. 한 화면에서 읽고, 다른 화면에서 메모를 작성합니다.
+    </x:String>
+    <x:String x:Key="ReaderImmersiveTitle">
+        몰입형 읽기
+    </x:String>
+    <x:String x:Key="ReaderImmersiveSubtitle">
+        한 번의 클릭으로 몰입형 읽기 모드를 시작할 수 있습니다. 도구 모음 및 동작 버튼을 숨겨 산만한 요소를 줄이고 읽기에 집중할 수 있습니다.
+    </x:String>
+    <x:String x:Key="NoteTitle">
+        스마트 메모
+    </x:String>
+    <x:String x:Key="NoteSubtitle">
+        듀얼 화면 기능 맞춤형 수기 메모 작성 소프트웨어가 최적의 메모 작성 환경을 제공하여 사용자가 생각과 아이디어를 쉽게 기록할 수 있습니다.
+    </x:String>
+    <x:String x:Key="LockScreenNoteTitle">
+        잠금 화면 메모
+    </x:String>
+    <x:String x:Key="LockScreenNoteSubtitle">
+        잠금 화면 위로 스타일러스를 가져가면 잠금 화면 메모나 스마트 책갈피를 만들 수 있습니다.
+    </x:String>
+    <x:String x:Key="QuickNoteTitle">
+        스마트 책갈피
+    </x:String>
+    <x:String x:Key="QuickNoteSubtitle">
+        잠금 화면에 책갈피를 추가하면 장치 사용 시 중요한 알림을 확인할 수 있습니다. 메모에서 시간 정보를 감지해 자동으로 알림을 설정하며, 설정된 시간에 장치가 절전 모드를 해제하고 알림을 표시합니다.
+    </x:String>
+    <x:String x:Key="ScreenshotTitle">
+        빠른 실행/스크린샷
+    </x:String>
+    <x:String x:Key="ScreenshotSubtitle">
+        스타일러스를 화면 모서리에서 중앙으로 살짝 밀면 스마트 메모나 빠른 스크린샷을 신속하게 실행할 수 있습니다.
+    </x:String>
+    <x:String x:Key="UserCenter_Game">
+        듀얼 화면 게임
+    </x:String>
+    <x:String x:Key="Game1Title">
+        아스팔트 9
+    </x:String>
+    <x:String x:Key="Game1Subtitle">
+        아스팔트 9는 스릴 넘치는 레이싱 게임으로, 상단 화면에서 게임 플레이와 주행을 즐기면서 하단 화면의 미니 맵을 참고할 수 있습니다.
+    </x:String>
+    <x:String x:Key="Game2Title">
+        모던 컴뱃 5
+    </x:String>
+    <x:String x:Key="Game2Subtitle">
+        상단 화면에서 흥미진진한 슈팅 게임에 몰두할 수 있으며 하단 화면에 적군 수색을 위한 전체 미니 맵이 제공됩니다.
+    </x:String>
+    <x:String x:Key="Game3Title">
+        던전 헌터 5
+    </x:String>
+    <x:String x:Key="Game3Subtitle">
+        상단 화면에 게임 화면이 표시되며 하단 화면에서 캐릭터를 제어합니다. 듀얼 화면 기술을 이용해 쉽게 승리하고 쉽게 이동해 보세요.
+    </x:String>
+    <x:String x:Key="GameAssistantTitle">
+        듀얼 화면 게임 어시스턴트
+    </x:String>
+    <x:String x:Key="GameAssistantSubtitle">
+        듀얼 화면 모드에서 Xbox나 Steam을 열면 저장해 둔 웹 페이지가 다른 화면에서 자동으로 열려 게임을 하는 동안 팁과 전략을 확인할 수 있습니다. 사용자 센터의 설정 메뉴로 이동하여 웹 페이지 링크를 수정할 수 있습니다.
+    </x:String>
+    <x:String x:Key="Setting">
+        듀얼 화면 설정
+    </x:String>
+    <x:String x:Key="ResetDisplaySettinButton">
+        기본 디스플레이 설정 복원
+    </x:String>
+    <x:String x:Key="Layout_Subtitle">
+        화면 간 앱 창 이동, 레이아웃 및 창 긋기
+    </x:String>
+    <x:String x:Key="Layout_Text">
+        창 드래그 시 앱 레이아웃 추천사항이 표시됩니다.
+    </x:String>
+    <x:String x:Key="Layout_Mouse">
+        마우스로 창을 드래그할 때 표시
+    </x:String>
+    <x:String x:Key="Layout_Touch">
+        손가락으로 창을 드래그할 때 표시
+    </x:String>
+    <x:String x:Key="Layout_MaximizePanel">
+        최대화 버튼 위로 마우스를 가져가면 듀얼 화면 레이아웃 옵션을 불러옵니다.
+    </x:String>
+    <x:String x:Key="Layout_TaskBarWindowUseTouch">
+        작업 표시줄에서 열린 앱 아이콘을 누르면 현재 화면에 앱 창을 빠르게 표시합니다.
+    </x:String>
+    <x:String x:Key="Layout_WindowThrow">
+        앱 창을 손가락으로 끌어 다른 화면으로 넘깁니다.
+    </x:String>
+    <x:String x:Key="Brightness_Title">
+        듀얼 화면 밝기
+    </x:String>
+    <x:String x:Key="Brightness_Subtitle">
+        각각의 슬라이더로 화면 밝기를 별도 조정합니다.
+    </x:String>
+    <x:String x:Key="Brightness_IsOpenBrightnessContorl">
+        시스템 밝기 변경 시 자동 밝기 조절이 팝업됩니다.
+    </x:String>
+    <x:String x:Key="Wallpaper_Title">
+        듀얼 화면 배경 화면
+    </x:String>
+    <x:String x:Key="Wallpaper_Subtitle">
+        듀얼 화면 배경 화면이 장치 방향 및 각도에 맞춰 자동 조정됩니다.
+    </x:String>
+    <x:String x:Key="Wallpaper_ApplyButton">
+        지금 적용
+    </x:String>
+    <x:String x:Key="Keyboard_Title">
+        가상 키보드
+    </x:String>
+    <x:String x:Key="Keyboard_Subtitle">
+        투명도 조절 가능한 터치패드 키보드
+    </x:String>
+    <x:String x:Key="Keyboard_Text">
+        다음과 같이 가상 키보드 실행 방식이 다양합니다.
+    </x:String>
+    <x:String x:Key="Keyboard_AutoStartKeyboard">
+        입력 상자 누르기
+    </x:String>
+    <x:String x:Key="Keyboard_PressCStartKeyboard">
+        화면 하단을 손가락 8개로 눌러 가상 키보드를 열고 입력을 시작합니다.
+    </x:String>
+    <x:String x:Key="Keyboard_SystemTray">
+        시스템 트레이 단축키
+    </x:String>
+    <x:String x:Key="Keyboard_WallpaperText">
+        가상 키보드 테마
+    </x:String>
+    <x:String x:Key="Touchpad_Subtitle">
+        정확한 커서 제어를 위해 터치패드 빠르게 열기
+    </x:String>
+    <x:String x:Key="Touchpad_Text">
+        다음과 같이 가상 터치패드 실행 방식이 다양합니다.
+    </x:String>
+    <x:String x:Key="Touchpad_PressCStartTouchpad">
+        손가락 3개로 누르기
+    </x:String>
+    <x:String x:Key="Touchpad_SystemTrayVirtualTouchpad">
+        시스템 트레이 단축키
+    </x:String>
+    <x:String x:Key="WonderBar_Subtitle">
+        키보드가 아래 화면에 표시되면 키보드 위에 있는 위젯을 확인합니다.
+    </x:String>
+    <x:String x:Key="WonderBar_Text">
+        위젯 바가 표시되는 경우:
+    </x:String>
+    <x:String x:Key="WonderBar_WKShowWonderBar">
+        Windows 터치패드 키보드를 사용하는 경우
+    </x:String>
+    <x:String x:Key="AppLauncher_Subtitle">
+        현재 시나리오에서 가장 많이 사용되는 응용 프로그램입니다.
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowAppLauncher">
+        장치 모드 변경 시 멀티 앱 시작 관리자 팝업
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowMeeting">
+        Teams, Zoom 및 기타 앱 사용 중 메모 작성 소프트웨어를 실행하여 회의록을 작성합니다.
+    </x:String>
+    <x:String x:Key="FloatingButton_Subtitle">
+        바탕 화면에 바로 가기 메뉴 표시
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOff">
+        닫힘
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOn">
+        활성화
+    </x:String>
+    <x:String x:Key="FloatingButton_Text">
+        기능 휠의 기능 선택(최소 2개):
+    </x:String>
+    <x:String x:Key="UserCenterTitle">
+        사용자 센터
+    </x:String>
+    <x:String x:Key="Cover_Title">
+        접기 보호 알림
+    </x:String>
+    <x:String x:Key="Cover_Subtitle">
+        장치를 접을 때 Bluetooth 키보드가 계속 하단 화면에 위치한 경우 사용자가 화면을 손상하지 않도록 오디오 알림 재생
+    </x:String>
+    <x:String x:Key="GameAssistant_Subtitle">
+        특정 게임 플랫폼 실행 시 다른 화면에서 게임 전략 등 웹 페이지를 열기 위해 웹 페이지 링크 구성
+    </x:String>
+    <x:String x:Key="GameAssistant_XboxGame">
+        Xbox 실행 시 표시할 웹 페이지
+    </x:String>
+    <x:String x:Key="GameAssistant_SteamGame">
+        Steam 실행 시 표시할 웹 페이지
+    </x:String>
+    <x:String x:Key="Waterfall_Subtitle">
+        손가락 5개로 화면을 누르면 두 화면 모두에서 전체 화면 모드로 현재 창을 표시합니다.
+    </x:String>
+    <x:String x:Key="UserCenter_Auxiliary">
+        새 기능 미리 보기
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateText">
+        새 버전 {0}을(를) 다운로드했습니다. 현재 버전은 {1}입니다. 업데이트하시겠습니까?
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateButton">
+        지금 업데이트
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionTitle">
+        사용자 경험 프로그램
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionText">
+        사용자 경험 프로그램을 통해 앱 내 동작에 대한 익명 정보를 수집하여 계속해서 제품을 최적화하고 사용자 환경을 개선할 수 있도록 지원
+    </x:String>
+    <x:String x:Key="UserCenter_QRCode">
+        QR 코드를 스캔하여 Yoga Book 9 커뮤니티에 가입
+    </x:String>
+    <x:String x:Key="Setting_PrivacyAgreementButtonText">
+        개인정보 처리방침
+    </x:String>
+    <x:String x:Key="Setting_Version">
+        버전:
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Keyboard">
+        가상 키보드는 듀얼 화면 가로 모드만 지원
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Touchpad">
+        가상 터치패드는 듀얼 화면 모드의 하단 화면에서만 활성화할 수 있습니다.
+    </x:String>
+    <x:String x:Key="AppLauncherText">
+        장치 모드 변경 시 현재 모드에 따라 가장 많이 사용하는 앱이 표시됩니다. 한 번의 클릭으로 표시되는 앱을 변경할 수 있습니다.
+    </x:String>
+    <x:String x:Key="KeyboardText">
+        손가락 8개로 하단 화면을 눌러 가상 키보드를 빠르게 실행
+    </x:String>
+    <x:String x:Key="CoverText">
+        화면을 손상하지 않도록 장치를 닫기 전에 Bluetooth 키보드 제거
+    </x:String>
+    <x:String x:Key="PrimaryButton">
+        알겠습니다.
+    </x:String>
+    <x:String x:Key="MainText">
+        Yoga Book 9 사용자 센터를 열어 듀얼 화면 기능에 대해 자세히 알아보기
+    </x:String>
+    <x:String x:Key="GoCheckButton">
+        지금 열기
+    </x:String>
+    <x:String x:Key="FormText">
+        최상의 환경을 위해 사용하려는 방식에 따라 장치 모드 변경
+    </x:String>
+    <x:String x:Key="WindowThrowWindowText">
+        손가락으로 창 맨 위에 있는 제목 표시줄을 드래그하여 다른 화면으로 빠르게 이동
+    </x:String>
+    <x:String x:Key="SkipButton">
+        건너뛰기
+    </x:String>
+    <x:String x:Key="DoneButton">
+        완료
+    </x:String>
+    <x:String x:Key="confirmButton">
+        확인
+    </x:String>
+    <x:String x:Key="MoreButton">
+        자세히 알아보기
+    </x:String>
+    <x:String x:Key="WaterfallWindowText">
+        손가락 5개로 화면을 터치하여 화면 전체에 걸쳐 현재 앱을 전체 화면 모드로 표시합니다.
+    </x:String>
+    <x:String x:Key="TaskBarText">
+        작업 표시줄에서 앱 아이콘을 눌러 창을 현재 화면으로 이동
+    </x:String>
+    <x:String x:Key="TouchpadWindowText">
+        손가락 3개로 하단 화면을 눌러 보다 정확한 커서 제어를 위해 가상 터치패드 활성화
+    </x:String>
+    <x:String x:Key="WonderBarTip">
+        왼쪽이나 오른쪽으로 밀어 위젯 간에 전환
+    </x:String>
+    <x:String x:Key="KeyboardSizeText">
+        여기를 클릭하여 키보드의 크기, 레이아웃 및 스타일 설정
+    </x:String>
+    <x:String x:Key="NextText">
+        다음
+    </x:String>
+    <x:String x:Key="WonderBarText">
+        사용자 센터 아래의 설정에서 위젯 바 및 가상 키보드 열기 또는 닫기
+    </x:String>
+    <x:String x:Key="KeyboardPrimaryTip">
+        설정 열기
+    </x:String>
+    <x:String x:Key="KeyboardSecondaryTip">
+        완료
+    </x:String>
+    <x:String x:Key="LayoutFristText">
+        다른 화면으로
+    </x:String>
+    <x:String x:Key="BrightnessText">
+        각 화면의 밝기를 개별 조정하거나 화면을 빠르게 끄기
+    </x:String>
+    <x:String x:Key="LayoutSecondText">
+        길게 눌러 레이아웃 옵션 표시
+    </x:String>
+    <x:String x:Key="SnapLayoutTipText">
+        여기를 클릭하여 창을 다른 화면으로 이동
+    </x:String>
+    <x:String x:Key="UpdateText">
+        Yoga Book 솔루션의 새 버전을 다운로드했습니다. 업데이트하시겠습니까?
+    </x:String>
+    <x:String x:Key="UpdateButton">
+        지금 업데이트
+    </x:String>
+    <x:String x:Key="NoUpdateButton">
+        지금 사용 안 함
+    </x:String>
+    <x:String x:Key="Update_FailText">
+        업데이트에 실패했습니다. 다시 시도하십시오.
+    </x:String>
+    <x:String x:Key="Update_RetryButton">
+        다시 시도
+    </x:String>
+    <x:String x:Key="Update_CloseButton">
+        닫기
+    </x:String>
+    <x:String x:Key="WonderBar_UnreadEmail">
+        읽지 않은 이메일
+    </x:String>
+    <x:String x:Key="WonderBar_AllEmail">
+        모든 이메일
+    </x:String>
+    <x:String x:Key="WonderBar_Loading">
+        로드 중…
+    </x:String>
+    <x:String x:Key="WonderBar_LoadingMore">
+        추가 로드...
+    </x:String>
+    <x:String x:Key="WonderBar_NoEmail">
+        이메일 없음
+    </x:String>
+    <x:String x:Key="WonderBar_Refreshing">
+        새로 고침
+    </x:String>
+    <x:String x:Key="widget_Weather_RefreshSpan">
+        {0} 전 업데이트됨
+    </x:String>
+    <x:String x:Key="widget_Weather_Second">
+        방금 업데이트됨
+    </x:String>
+    <x:String x:Key="widget_Weather_Minute">
+        분
+    </x:String>
+    <x:String x:Key="widget_Weather_Hour">
+        시간
+    </x:String>
+    <x:String x:Key="widget_Weather_Day">
+        일
+    </x:String>
+    <x:String x:Key="WonderBar_Weather">
+        날씨
+    </x:String>
+    <x:String x:Key="WonderBar_News">
+        뉴스
+    </x:String>
+    <x:String x:Key="WonderBar_Schedule">
+        안건
+    </x:String>
+    <x:String x:Key="WonderBar_System">
+        시스템
+    </x:String>
+    <x:String x:Key="WonderBar_Email">
+        이메일
+    </x:String>
+    <x:String x:Key="WonderBar_Open">
+        열기
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternet">
+        네트워크 없음
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternetConnection">
+        네트워크 연결 없음
+    </x:String>
+    <x:String x:Key="WonderBar_NoSchedule">
+        안건 없음
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallEmail">
+        Outlook을 설치하여 여기에 이메일 정보 표시
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginEmail">
+        Outlook 계정에 로그인하여 여기에 이메일 정보 표시
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallSchedule">
+        Outlook을 설치하여 여기에 캘린더 정보 표시
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginSchedule">
+        Outlook 계정에 로그인하여 여기에 캘린더 정보 표시
+    </x:String>
+    <x:String x:Key="WonderBar_PoweredByMSN">
+        MSN 날씨에서 획득한 날씨 정보
+    </x:String>
+    <x:String x:Key="WonderBar_TurnOnLocationPermission">
+        사용자 위치에 액세스할 수 없습니다. 위치 권한을 켜 주십시오.
+    </x:String>
+    <x:String x:Key="Setting_Dialog_Title">
+        현재 디스플레이 설정은 화면 간 브라우징 및 창 관리자의 일부 기능에 영향을 줄 수 있습니다. 기본 설정으로 다시 변경하는 것이 좋습니다.
+    </x:String>
+    <x:String x:Key="Setting_Dialog_CloseButtonText">
+        수정 사항 유지
+    </x:String>
+    <x:String x:Key="Setting_Dialog_PrimaryButtonText">
+        기본 설정 복원
+    </x:String>
+    <x:String x:Key="SecondaryButton">
+        알림 다시 표시 안 함
+    </x:String>
+    <x:String x:Key="AppContextMenu_Open">
+        열기
+    </x:String>
+    <x:String x:Key="WonderBar_OpenOutlook">
+        Outlook을 열어 더 많은 이메일 보기
+    </x:String>
+    <x:String x:Key="AppContextMenu_Exit">
+        종료
+    </x:String>
+    <x:String x:Key="UserCenter_About">
+        정보
+    </x:String>
+    <x:String x:Key="Weather_Loading">
+        날씨 로드 중...
+    </x:String>
+    <x:String x:Key="News_Loading">
+        뉴스 로드 중...
+    </x:String>
+    <x:String x:Key="Email_Loading">
+        이메일 로드 중...
+    </x:String>
+    <x:String x:Key="Schedule_Loading">
+        일정 로드 중...
+    </x:String>
+    <x:String x:Key="MettingLauncher_Title">
+        스마트 메모를 열고 회의록을 작성합니다.
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_Dynamic">
+        라이브
+    </x:String>
+    <x:String x:Key="UserCenter_BBS">
+        Yoga Book 9 커뮤니티에 오신 것을 환영합니다. 귀하의 의견은 매우 소중합니다. 의견과 문의 사항을 여기에 남겨 주십시오.
+    </x:String>
+    <x:String x:Key="UserCenter_BBSButton">
+        Yoga Book 9 포럼 방문
+    </x:String>
+    <x:String x:Key="Setting_Dialog">
+        설정 미리 알림 표시
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_ComingSoon">
+        금방 갈게요
+    </x:String>
+    <x:String x:Key="WonderBarSubtitle">
+        Bluetooth 키보드가 하단 화면 근처에 있거나 가상 키보드가 활성화된 경우 키보드 위에 위젯 바가 나타납니다.
+    </x:String>
+    <x:String x:Key="UserCenter_Answer">
+        FAQ
+    </x:String>
+    <x:String x:Key="AnswerWidget_All">
+        모두
+    </x:String>
+    <x:String x:Key="LenovoAgreementLicense">
+        Lenovo 계약 라이센스
+    </x:String>
+    <x:String x:Key="ThirdPartyNotice">
+        타사 고지
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarTitle">
+        일정 또는 뉴스 위젯
+    </x:String>
+    <x:String x:Key="UserCenter_PKBShowWonderBar">
+        가상 키보드를 사용하는 경우
+    </x:String>
+    <x:String x:Key="UserCenter_BKShowWonderBar">
+        Bluetooth 키보드를 사용하는 경우
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarFocusText">
+        포커스 창(선택된 경우 포커스 창은 자동으로 Wondar Bar 영역으로 이동되며, 선택 해제된 경우 포커스 창은 자동으로 상단 화면으로 이동됩니다.)
+    </x:String>
+    <x:String x:Key="UserCenter_HeaderText">
+        Yoga Book 9 사용자 센터를 시작합니다
+    </x:String>
+    <x:String x:Key="UserCenter_ContentText">
+        사용자 센터에서 Yoga Book 9의 모범 사례 및 기능에 대해 읽어보거나 듀얼 화면 기능을 설정할 수 있습니다.
+    </x:String>
+    <x:String x:Key="UserCenter_AgreeText">
+        다음 사항을 이해하고 이에 동의함:
+    </x:String>
+    <x:String x:Key="UserCenter_LenovoPrivacyStatement">
+        Lenovo 개인정보 보호정책
+    </x:String>
+    <x:String x:Key="UserCenter_Join">
+        사용자 경험 프로그램에 가입
+    </x:String>
+    <x:String x:Key="UserCenter_TryNow">
+        지금 시도
+    </x:String>
+
+</ResourceDictionary>
+

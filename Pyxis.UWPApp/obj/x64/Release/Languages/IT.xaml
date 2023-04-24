@@ -1,0 +1,721 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+
+<Visibility x:Key="UserCenter_QrVisibility">Collapsed</Visibility>
+<Visibility x:Key="UserCenter_BBSVisibility">Visible</Visibility>
+    <StaticResource x:Key="UserCenter_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="UserCenter_Shortcut" ResourceKey="ShortcutTitle"/>
+    <StaticResource x:Key="UserCenter_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="UserCenter_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="UserCenter_WindowsManager" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="UserCenter_Setting" ResourceKey="Setting"/>
+    <StaticResource x:Key="Layout_Title" ResourceKey="WindowsManagerTitle" />
+    <StaticResource x:Key="Touchpad_Title" ResourceKey="TouchpadTitle" />
+    <StaticResource x:Key="WonderBar_Title" ResourceKey="WonderBarTitle" />
+    <StaticResource x:Key="AppLauncher_Title" ResourceKey="AppLauncherTitle" />
+    <StaticResource x:Key="FloatingButton_Title" ResourceKey="FloatingButtonTitle" />
+    <StaticResource x:Key="Waterfall_Title" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Note" ResourceKey="NoteTitle"/>
+    <StaticResource x:Key="FloatingButton_Reader" ResourceKey="ReaderTitle"/>
+    <StaticResource x:Key="FloatingButton_Launcher" ResourceKey="AppLauncherTitle"/>
+    <StaticResource x:Key="FloatingButton_Keyboard" ResourceKey="Keyboard_Title"/>
+    <StaticResource x:Key="FloatingButton_Touchpad" ResourceKey="TouchpadTitle"/>
+    <StaticResource x:Key="FloatingButton_Waterfall" ResourceKey="WaterfallTitle"/>
+    <StaticResource x:Key="FloatingButton_Brightness" ResourceKey="BrightnessTitle" />
+    <StaticResource x:Key="FloatingButton_UserCenter" ResourceKey="UserCenterTitle" />
+    <StaticResource x:Key="GameAssistant_Title" ResourceKey="GameAssistantTitle" />
+    <x:String x:Key="WindowTitle">
+        Yoga Book 9 User Center
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Monday">
+        Monday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Tuesday">
+        Tuesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Wednesday">
+        Wednesday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Thursday">
+        Thursday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Friday">
+        Friday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Saturday">
+        Saturday
+    </x:String>
+    <x:String x:Key="widget_ScheduleWidget_Sunday">
+        Sunday
+    </x:String>
+    <x:String x:Key="WonderBar_Ethernet">
+        Ethernet
+    </x:String>
+    <x:String x:Key="FloatingButtonExpandText">
+        Click the floating ball menu to use functions such as notes, readers, and brightness adjustment; click the middle of the floating ball or other areas of the screen to close the floating ball
+    </x:String>
+    <x:String x:Key="FloatingButtonShowText">
+        Click the floating ball to expand the menu
+    </x:String>
+    <x:String x:Key="FloatingButtonText">
+        Click anywhere on the desktop to evoke a floating ball
+    </x:String>
+    <x:String x:Key="ReaderWindowText">
+        Use the pen to swipe from the bottom left corner to the middle to open Reader
+    </x:String>
+    <x:String x:Key="TouchpadText">
+        Three-finger tap anywhere on the screen to open the Quick Trackpad at that location
+    </x:String>
+    <x:String x:Key="WallpaperText">
+        The user center can quickly switch dual-screen themes.
+    </x:String>
+    <x:String x:Key="SmartnoteWindowText">
+        Use the pen to swipe from the bottom right corner to the middle to open Smartnote
+    </x:String>
+    <x:String x:Key="WindowThrowText">
+        Window Toss is complete!
+    </x:String>
+    <x:String x:Key="MoreFunctionButton">
+        Learn more features
+    </x:String>
+    <x:String x:Key="InkcanvasWindowText">
+        Saved to the desktop
+    </x:String>
+    <x:String x:Key="WonderBar_WeatherError">
+        The weather service is abnormal. Please try again later
+    </x:String>
+    <x:String x:Key="UserCenter_Welcom">
+        Interazione a doppio schermo
+    </x:String>
+    <x:String x:Key="UserCenter_Work">
+        Lavoro
+    </x:String>
+    <x:String x:Key="UserCenter_Learn">
+        Studio
+    </x:String>
+    <x:String x:Key="UserCenter_Onthego">
+        Mobilità
+    </x:String>
+    <x:String x:Key="UserCenter_Collaborate">
+        Collaborazione
+    </x:String>
+    <x:String x:Key="UserCenter_Entertain">
+        Intrattenimento
+    </x:String>
+    <x:String x:Key="UserCenter_Introduce">
+        Funzioni
+    </x:String>
+    <x:String x:Key="WindowsManagerTitle">
+        Gestione finestre
+    </x:String>
+    <x:String x:Key="LayoutTitle">
+        Trascinare la finestra per impostare il layout
+    </x:String>
+    <x:String x:Key="LayoutSubtitle">
+        Trascina una finestra con le dita e rilasciala per spostarla sull'altro schermo oppure tieni premuto sulla finestra sull'altro schermo per posizionarla in modo più preciso.
+    </x:String>
+    <x:String x:Key="OpenButton">
+        Impostazioni
+    </x:String>
+    <x:String x:Key="TaskBarTitle">
+        Focus Click
+    </x:String>
+    <x:String x:Key="TaskbarSubtitle">
+        Tocca la barra delle applicazioni per spostare le app tra gli schermi.
+    </x:String>
+    <x:String x:Key="SnapLayoutTitle">
+        Layout finestra a doppio schermo
+    </x:String>
+    <x:String x:Key="SnapLayoutSubtitle">
+        Passa il mouse sul pulsante Ingrandisci per posizionare la finestra nel layout a doppio schermo selezionato.
+    </x:String>
+    <x:String x:Key="ThrowTitle">
+        Scorrimento finestra
+    </x:String>
+    <x:String x:Key="ThrowSubtitle">
+        Trascina la barra del titolo dell'app con un dito e falla scorrere rapidamente verso l'altro schermo per visualizzare l'app a schermo intero sul secondo schermo.
+    </x:String>
+    <x:String x:Key="WaterfallTitle">
+        Navigazione multischermo
+    </x:String>
+    <x:String x:Key="WaterfallSubtitle">
+        In modalità orizzontale a doppio schermo, toccare lo schermo con 5 dita per visualizzare la finestra dell'app corrente in modalità schermo intero su entrambi gli schermi.
+    </x:String>
+    <x:String x:Key="WindowsKeyboardTitle">
+        Tastiera tradizionale
+    </x:String>
+    <x:String x:Key="WindowsKeyboardSubtitle">
+        Toccare lo schermo inferiore con 8 dita o la casella di input per avviare rapidamente la Tastiera virtuale e iniziare a digitare.
+    </x:String>
+    <x:String x:Key="ExperienceNowButton">
+        Prova ora
+    </x:String>
+    <x:String x:Key="KeyboardTitle">
+        Tastiera divisa
+    </x:String>
+    <x:String x:Key="KeyboardSubtitle">
+        In modalità Tastiera divisa è possibile personalizzare le dimensioni e la posizione dell'area della tastiera in base alle preferenze personali.
+    </x:String>
+    <x:String x:Key="KeyboardOpacityTitle">
+        Trasparenza tastiera
+    </x:String>
+    <x:String x:Key="KeyboardOpacitySubtitle">
+        Tocca il pulsante Impostazioni nell'angolo superiore destro della tastiera virtuale per modificare la trasparenza della tastiera.
+    </x:String>
+    <x:String x:Key="KeyboardSkinTitle">
+        Modifica tema tastiera
+    </x:String>
+    <x:String x:Key="KeyboardSkinSubtitle">
+        Seleziona il tema della Tastiera virtuale, tramite Impostazioni nel Centro utente.
+    </x:String>
+    <x:String x:Key="WonderBarTitle">
+        Barra dei widget
+    </x:String>
+    <x:String x:Key="TouchpadTitle">
+        Touchpad virtuale
+    </x:String>
+    <x:String x:Key="TouchpadSubtitle">
+        Attiva il Touchpad virtuale toccando la parte inferiore dello schermo con 3 dita. Usa i cursori per operazioni precise.
+    </x:String>
+    <x:String x:Key="TouchpadSizeTitle">
+        Regola dimensioni Touchpad virtuale
+    </x:String>
+    <x:String x:Key="TouchpadSizeSubtitle">
+        Trascina il pulsante Ridimensiona nell'angolo superiore sinistro del Touchpad virtuale per ridimensionarlo.
+    </x:String>
+    <x:String x:Key="TouchpadLowerTitle">
+        Touchpad virtuale e segnalibro
+    </x:String>
+    <x:String x:Key="TouchpadLowerSubtitle">
+        Con la tastiera virtuale o Bluetooth nella parte superiore dello schermo inferiore, il Touchpad virtuale e i segnalibri vengono visualizzati sotto alla tastiera. I segnalibri possono essere estesi o compressi, mentre è possibile fissare le note all'interfaccia della schermata di blocco per accedervi più facilmente.
+    </x:String>
+    <x:String x:Key="ShortcutTitle">
+        Accesso rapido
+    </x:String>
+    <x:String x:Key="FloatingButtonTitle">
+        Ruota funzioni
+    </x:String>
+    <x:String x:Key="FloatingButtonSubtitle">
+        Quando è abilitata, Ruota funzioni viene visualizzata sul desktop. Toccarla per accedere rapidamente alle funzioni. È possibile personalizzare le funzioni visualizzate sulla Ruota funzioni in Impostazioni.
+    </x:String>
+    <x:String x:Key="BrightnessTitle">
+        Luminosità
+    </x:String>
+    <x:String x:Key="BrightnessSubtitle">
+        I cursori della luminosità vengono visualizzati su entrambi gli schermi.
+    </x:String>
+    <x:String x:Key="WallpaperTitle">
+        Sfondo per doppio schermo
+    </x:String>
+    <x:String x:Key="WallpaperSubtitle">
+        Applica gli sfondi dinamici a doppio schermo, progettati specificamente per lo Yoga Book 9.
+    </x:String>
+    <x:String x:Key="AppLauncherTitle">
+        Multi-app Express
+    </x:String>
+    <x:String x:Key="AppLauncherSubtitle">
+        Una volta applicata questa funzione, quando la modalità del dispositivo cambia, Multi-app Express suggerisce le applicazioni e i layout appropriati in base alle abitudini dell'utente.
+    </x:String>
+    <x:String x:Key="ReaderTitle">
+        Smart Reader
+    </x:String>
+    <x:String x:Key="ReaderSubtitle">
+        Ottieni un'esperienza di lettura immersiva per file con estensione PDF, Mobi, EPUB e Txt tramite l'e-reader personalizzato per il doppio schermo.
+    </x:String>
+    <x:String x:Key="ReaderNoteTitle">
+        Note di lettura
+    </x:String>
+    <x:String x:Key="ReaderNoteSubtitle">
+        Crea note per il documento che stai leggendo tramite Smart Note. Uno schermo per leggere e l'altro per prendere appunti.
+    </x:String>
+    <x:String x:Key="ReaderImmersiveTitle">
+        Lettura immersiva
+    </x:String>
+    <x:String x:Key="ReaderImmersiveSubtitle">
+        Attivare la modalità di lettura immersiva con un clic. In questo modo, le barre degli strumenti e i pulsanti di azione vengono nascosti per concentrarsi sulla lettura.
+    </x:String>
+    <x:String x:Key="NoteTitle">
+        Smart Note
+    </x:String>
+    <x:String x:Key="NoteSubtitle">
+        Il software di riconoscimento delle note scritte a mano, con funzionalità personalizzata per il doppio schermo, fornisce un'esperienza ottimale per prendere appunti e salvare idee e suggerimenti importanti.
+    </x:String>
+    <x:String x:Key="LockScreenNoteTitle">
+        Note della schermata di blocco
+    </x:String>
+    <x:String x:Key="LockScreenNoteSubtitle">
+        Posiziona lo stilo sulla schermata di blocco per creare note sulla schermata di blocco o sui Segnalibri intelligenti.
+    </x:String>
+    <x:String x:Key="QuickNoteTitle">
+        Segnalibri intelligenti
+    </x:String>
+    <x:String x:Key="QuickNoteSubtitle">
+        Aggiungi un segnalibro alla schermata di blocco per visualizzare promemoria importanti utilizzi il dispositivo. Rileva le informazioni orarie nelle note e imposta automaticamente i promemoria, in cui il dispositivo si attiva e mostra i promemoria negli orari impostati.
+    </x:String>
+    <x:String x:Key="ScreenshotTitle">
+        Avvio rapido/Screenshot
+    </x:String>
+    <x:String x:Key="ScreenshotSubtitle">
+        Fai scorrere lo stilo dall'angolo al centro dello schermo per avviare rapidamente Smart Note o Schermo rapido.
+    </x:String>
+    <x:String x:Key="UserCenter_Game">
+        Gioco a doppio schermo
+    </x:String>
+    <x:String x:Key="Game1Title">
+        Asphalt 9
+    </x:String>
+    <x:String x:Key="Game1Subtitle">
+        Asphalt 9 è un gioco di corse avvincente che consente di utilizzare lo schermo superiore per guidare e quello inferiore per la mini-mappa.
+    </x:String>
+    <x:String x:Key="Game2Title">
+        Modern Combat 5
+    </x:String>
+    <x:String x:Key="Game2Subtitle">
+        Lasciati coinvolgere da emozionanti corse sullo schermo superiore, con una mini-mappa completa sullo schermo inferiore per controllare i tuoi nemici.
+    </x:String>
+    <x:String x:Key="Game3Title">
+        Dungeon Hunter 5
+    </x:String>
+    <x:String x:Key="Game3Subtitle">
+        Visualizza il gioco sullo schermo superiore mentre controlli il personaggio sullo schermo inferiore. Vinci e muoviti con facilità con la tecnologia a doppio schermo.
+    </x:String>
+    <x:String x:Key="GameAssistantTitle">
+        Assistente di gioco a doppio schermo
+    </x:String>
+    <x:String x:Key="GameAssistantSubtitle">
+        Quando si apre Xbox o Steam in modalità a doppio schermo, sull'altro schermo vengono visualizzate automaticamente le pagine Web salvate, per avere sott'occhio strategie e suggerimenti durante il gioco. È possibile modificare i collegamenti alle pagine Web in Impostazioni nel Centro utente.
+    </x:String>
+    <x:String x:Key="Setting">
+        Impostazioni doppio schermo
+    </x:String>
+    <x:String x:Key="ResetDisplaySettinButton">
+        Ripristino delle impostazioni schermo predefinite
+    </x:String>
+    <x:String x:Key="Layout_Subtitle">
+        Spostamento della finestra dell'app, layout e scorrimento finestra multischermo
+    </x:String>
+    <x:String x:Key="Layout_Text">
+        I suggerimenti sul layout dell'app vengono visualizzati quando trascini le finestre.
+    </x:String>
+    <x:String x:Key="Layout_Mouse">
+        Visualizzato quando si trascina una finestra con il mouse
+    </x:String>
+    <x:String x:Key="Layout_Touch">
+        Visualizzato quando si trascina una finestra con il dito
+    </x:String>
+    <x:String x:Key="Layout_MaximizePanel">
+        Passa il mouse sul pulsante Ingrandisci finestra per richiamare le opzioni di layout a doppio schermo.
+    </x:String>
+    <x:String x:Key="Layout_TaskBarWindowUseTouch">
+        Tocca l'icona di un'app aperta nella barra delle applicazioni per visualizzare rapidamente la finestra dell'app sullo schermo corrente.
+    </x:String>
+    <x:String x:Key="Layout_WindowThrow">
+        Trascinare una finestra dell'app con il dito e farla scorrere rapidamente sull'altro schermo.
+    </x:String>
+    <x:String x:Key="Brightness_Title">
+        Luminosità per doppio schermo
+    </x:String>
+    <x:String x:Key="Brightness_Subtitle">
+        Regola separatamente la luminosità dei due schermi con i cursori.
+    </x:String>
+    <x:String x:Key="Brightness_IsOpenBrightnessContorl">
+        Il controllo automatico della luminosità viene visualizzato quando la luminosità del sistema viene modificata.
+    </x:String>
+    <x:String x:Key="Wallpaper_Title">
+        Sfondo per doppio schermo
+    </x:String>
+    <x:String x:Key="Wallpaper_Subtitle">
+        Lo sfondo per doppio schermo si regola in base all'orientamento o all'angolazione del dispositivo.
+    </x:String>
+    <x:String x:Key="Wallpaper_ApplyButton">
+        Applica ora
+    </x:String>
+    <x:String x:Key="Keyboard_Title">
+        Tastiera virtuale
+    </x:String>
+    <x:String x:Key="Keyboard_Subtitle">
+        Tastiera touchpad con trasparenza regolabile.
+    </x:String>
+    <x:String x:Key="Keyboard_Text">
+        Stili di avvio multiplo per la tastiera virtuale:
+    </x:String>
+    <x:String x:Key="Keyboard_AutoStartKeyboard">
+        Tocca una casella di immissione
+    </x:String>
+    <x:String x:Key="Keyboard_PressCStartKeyboard">
+        Tocca con 8 dita sulla parte inferiore dello schermo per aprire la Tastiera virtuale e iniziare a digitare.
+    </x:String>
+    <x:String x:Key="Keyboard_SystemTray">
+        Scelte rapide dell'area di notifica
+    </x:String>
+    <x:String x:Key="Keyboard_WallpaperText">
+        Tema Tastiera virtuale
+    </x:String>
+    <x:String x:Key="Touchpad_Subtitle">
+        Apri rapidamente il touchpad per un controllo preciso del cursore
+    </x:String>
+    <x:String x:Key="Touchpad_Text">
+        Stili di avvio multiplo per il touchpad virtuale:
+    </x:String>
+    <x:String x:Key="Touchpad_PressCStartTouchpad">
+        Toccare con 3 dita
+    </x:String>
+    <x:String x:Key="Touchpad_SystemTrayVirtualTouchpad">
+        Scelte rapide dell'area di notifica
+    </x:String>
+    <x:String x:Key="WonderBar_Subtitle">
+        Con la tastiera visualizzata nella schermata inferiore, controlla i widget sopra la tastiera.
+    </x:String>
+    <x:String x:Key="WonderBar_Text">
+        La Barra dei widget viene visualizzata quando:
+    </x:String>
+    <x:String x:Key="WonderBar_WKShowWonderBar">
+        Si utilizza la Tastiera touchpad di Windows
+    </x:String>
+    <x:String x:Key="AppLauncher_Subtitle">
+        Applicazione utilizzata più comunemente nello scenario corrente.
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowAppLauncher">
+        Quando la modalità del dispositivo cambia, viene visualizzata l'icona di avvio multi-app
+    </x:String>
+    <x:String x:Key="AppLauncher_AutoShowMeeting">
+        Avvia un software di creazione di note per tenere traccia delle minute delle riunioni quando si utilizzano Team, Zoom e così via.
+    </x:String>
+    <x:String x:Key="FloatingButton_Subtitle">
+        Un menu di scelta rapida visualizzato sul desktop
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOff">
+        Chiuso
+    </x:String>
+    <x:String x:Key="UserCenter_TurnOn">
+        Abilitato
+    </x:String>
+    <x:String x:Key="FloatingButton_Text">
+        Selezionare le funzioni per la Ruota funzioni (almeno due):
+    </x:String>
+    <x:String x:Key="UserCenterTitle">
+        Centro utente
+    </x:String>
+    <x:String x:Key="Cover_Title">
+        Promemoria di protezione chiusura
+    </x:String>
+    <x:String x:Key="Cover_Subtitle">
+        Quando il dispositivo viene chiuso, riproduce un promemoria audio se la tastiera Bluetooth è ancora posizionata sullo schermo inferiore, in modo che l'utente non danneggi lo schermo
+    </x:String>
+    <x:String x:Key="GameAssistant_Subtitle">
+        Configurare i collegamenti alle pagine Web per aprire le pagine (come le strategie di gioco) sull'altro schermo quando viene avviata una specifica piattaforma di gioco
+    </x:String>
+    <x:String x:Key="GameAssistant_XboxGame">
+        Pagina Web da visualizzare all'avvio di Xbox
+    </x:String>
+    <x:String x:Key="GameAssistant_SteamGame">
+        Pagina Web da visualizzare all'avvio di Steam
+    </x:String>
+    <x:String x:Key="Waterfall_Subtitle">
+        Tocca lo schermo con 5 dita per visualizzare la finestra corrente in modalità schermo intero su entrambi gli schermi.
+    </x:String>
+    <x:String x:Key="UserCenter_Auxiliary">
+        Anteprima nuova funzione
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateText">
+        È stata scaricata la nuova versione {0}. La versione corrente è {1}. Aggiornare?
+    </x:String>
+    <x:String x:Key="UserCenter_UpdateButton">
+        Aggiorna ora
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionTitle">
+        Programma esperienza utente
+    </x:String>
+    <x:String x:Key="UserCenter_DataCollectionText">
+        Il Programma esperienza utente raccoglie informazioni anonime sul comportamento in-app, consentendoci di continuare a ottimizzare i nostri prodotti e di migliorare l'esperienza utente
+    </x:String>
+    <x:String x:Key="UserCenter_QRCode">
+        Eseguire la scansione del codice QR per unirsi alla community Yoga Book 9
+    </x:String>
+    <x:String x:Key="Setting_PrivacyAgreementButtonText">
+        Informativa sulla privacy
+    </x:String>
+    <x:String x:Key="Setting_Version">
+        Versione:
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Keyboard">
+        La Tastiera virtuale supporta solo la modalità orizzontale a doppio schermo
+    </x:String>
+    <x:String x:Key="UserCenter_Tip_Touchpad">
+        Il Touchpad virtuale può essere attivato solo sullo schermo inferiore in modalità a doppio schermo.
+    </x:String>
+    <x:String x:Key="AppLauncherText">
+        Quando la modalità del dispositivo viene modificata, le app utilizzate più spesso vengono visualizzate secondo la modalità corrente. È possibile modificare le app visualizzate con un clic.
+    </x:String>
+    <x:String x:Key="KeyboardText">
+        Toccare lo schermo inferiore con 8 dita per avviare rapidamente la Tastiera virtuale
+    </x:String>
+    <x:String x:Key="CoverText">
+        Rimuovere la tastiera Bluetooth prima di chiudere il dispositivo per evitare di danneggiare lo schermo
+    </x:String>
+    <x:String x:Key="PrimaryButton">
+        OK
+    </x:String>
+    <x:String x:Key="MainText">
+        Aprire il Centro utente di Yoga Book 9 per ulteriori informazioni sulle funzioni a doppio schermo
+    </x:String>
+    <x:String x:Key="GoCheckButton">
+        Apri ora
+    </x:String>
+    <x:String x:Key="FormText">
+        Per ottenere un'esperienza migliore, modificare la modalità del dispositivo in base al tipo di utilizzo
+    </x:String>
+    <x:String x:Key="WindowThrowWindowText">
+        Trascinare la barra del titolo nella parte superiore di una finestra con le dita per spostarla rapidamente sull'altro schermo
+    </x:String>
+    <x:String x:Key="SkipButton">
+        Ignora
+    </x:String>
+    <x:String x:Key="DoneButton">
+        Fatto
+    </x:String>
+    <x:String x:Key="confirmButton">
+        Conferma
+    </x:String>
+    <x:String x:Key="MoreButton">
+        Ulteriori informazioni
+    </x:String>
+    <x:String x:Key="WaterfallWindowText">
+        Toccare lo schermo con 5 dita per visualizzare la finestra dell'app corrente in modalità schermo intero sugli schermi.
+    </x:String>
+    <x:String x:Key="TaskBarText">
+        Toccare un'icona dell'app sulla barra delle applicazioni per spostare la rispettiva finestra sullo schermo corrente
+    </x:String>
+    <x:String x:Key="TouchpadWindowText">
+        Toccare lo schermo inferiore con 3 dita per attivare il Touchpad virtuale per un controllo più preciso del cursore
+    </x:String>
+    <x:String x:Key="WonderBarTip">
+        Scorrere verso sinistra o destra per passare da un widget all'altro
+    </x:String>
+    <x:String x:Key="KeyboardSizeText">
+        Fare clic qui per impostare le dimensioni, il layout e lo stile della tastiera
+    </x:String>
+    <x:String x:Key="NextText">
+        Avanti
+    </x:String>
+    <x:String x:Key="WonderBarText">
+        Aprire o chiudere la Barra dei widget e la Tastiera virtuale in Impostazioni nel Centro utente
+    </x:String>
+    <x:String x:Key="KeyboardPrimaryTip">
+        Apri impostazioni
+    </x:String>
+    <x:String x:Key="KeyboardSecondaryTip">
+        Fatto
+    </x:String>
+    <x:String x:Key="LayoutFristText">
+        Sull'altro schermo
+    </x:String>
+    <x:String x:Key="BrightnessText">
+        Regolare singolarmente la luminosità di ogni schermo o spegnere rapidamente uno schermo
+    </x:String>
+    <x:String x:Key="LayoutSecondText">
+        Tenere premuto per visualizzare le opzioni di layout
+    </x:String>
+    <x:String x:Key="SnapLayoutTipText">
+        Fare clic qui per spostare la finestra sull'altro schermo
+    </x:String>
+    <x:String x:Key="UpdateText">
+        È stata scaricata la nuova versione di Yoga Book Solutions. Aggiornare?
+    </x:String>
+    <x:String x:Key="UpdateButton">
+        Aggiorna ora
+    </x:String>
+    <x:String x:Key="NoUpdateButton">
+        Non ora
+    </x:String>
+    <x:String x:Key="Update_FailText">
+        Aggiornamento non riuscito. Riprova.
+    </x:String>
+    <x:String x:Key="Update_RetryButton">
+        Riprova
+    </x:String>
+    <x:String x:Key="Update_CloseButton">
+        Chiudi
+    </x:String>
+    <x:String x:Key="WonderBar_UnreadEmail">
+        E-mail non lette
+    </x:String>
+    <x:String x:Key="WonderBar_AllEmail">
+        Tutte le e-mail
+    </x:String>
+    <x:String x:Key="WonderBar_Loading">
+        Caricamento in corso...
+    </x:String>
+    <x:String x:Key="WonderBar_LoadingMore">
+        Carica altro...
+    </x:String>
+    <x:String x:Key="WonderBar_NoEmail">
+        Nessuna e-mail
+    </x:String>
+    <x:String x:Key="WonderBar_Refreshing">
+        Aggiorna
+    </x:String>
+    <x:String x:Key="widget_Weather_RefreshSpan">
+        Ultimo aggiornamento: {0} fa
+    </x:String>
+    <x:String x:Key="widget_Weather_Second">
+        Appena aggiornato
+    </x:String>
+    <x:String x:Key="widget_Weather_Minute">
+        minuti
+    </x:String>
+    <x:String x:Key="widget_Weather_Hour">
+        ore
+    </x:String>
+    <x:String x:Key="widget_Weather_Day">
+        giorni
+    </x:String>
+    <x:String x:Key="WonderBar_Weather">
+        Meteo
+    </x:String>
+    <x:String x:Key="WonderBar_News">
+        Notizie
+    </x:String>
+    <x:String x:Key="WonderBar_Schedule">
+        Agenda
+    </x:String>
+    <x:String x:Key="WonderBar_System">
+        Sistema
+    </x:String>
+    <x:String x:Key="WonderBar_Email">
+        E-mail
+    </x:String>
+    <x:String x:Key="WonderBar_Open">
+        Apri
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternet">
+        Nessuna rete
+    </x:String>
+    <x:String x:Key="WonderBar_NoInternetConnection">
+        Nessuna connessione di rete
+    </x:String>
+    <x:String x:Key="WonderBar_NoSchedule">
+        Nessuna agenda
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallEmail">
+        Installare Outlook per visualizzare le informazioni sulle e-mail qui
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginEmail">
+        Accedere al proprio account Outlook per visualizzare le informazioni sull'e-mail qui
+    </x:String>
+    <x:String x:Key="WonderBar_NoInstallSchedule">
+        Installare Outlook per visualizzare le informazioni sul calendario qui
+    </x:String>
+    <x:String x:Key="WonderBar_NoLoginSchedule">
+        Accedere al proprio account Outlook per visualizzare le informazioni sul calendario qui
+    </x:String>
+    <x:String x:Key="WonderBar_PoweredByMSN">
+        Informazioni meteo ottenute da MSN Meteo
+    </x:String>
+    <x:String x:Key="WonderBar_TurnOnLocationPermission">
+        Impossibile accedere alla posizione. Attivare le autorizzazioni per la posizione.
+    </x:String>
+    <x:String x:Key="Setting_Dialog_Title">
+        Le impostazioni schermo correnti possono influenzare alcune funzioni di Navigazione multischermo e di Gestione delle finestre. Si consiglia di ripristinare le impostazioni predefinite.
+    </x:String>
+    <x:String x:Key="Setting_Dialog_CloseButtonText">
+        Mantieni modifiche
+    </x:String>
+    <x:String x:Key="Setting_Dialog_PrimaryButtonText">
+        Ripristina impostazioni predefinite
+    </x:String>
+    <x:String x:Key="SecondaryButton">
+        Non ricordarmelo
+    </x:String>
+    <x:String x:Key="AppContextMenu_Open">
+        Apri
+    </x:String>
+    <x:String x:Key="WonderBar_OpenOutlook">
+        Aprire Outlook per visualizzare più messaggi e-mail
+    </x:String>
+    <x:String x:Key="AppContextMenu_Exit">
+        Esci
+    </x:String>
+    <x:String x:Key="UserCenter_About">
+        Informazioni su
+    </x:String>
+    <x:String x:Key="Weather_Loading">
+        Caricamento meteo in corso...
+    </x:String>
+    <x:String x:Key="News_Loading">
+        Caricamento notizie in corso...
+    </x:String>
+    <x:String x:Key="Email_Loading">
+        Caricamento e-mail in corso...
+    </x:String>
+    <x:String x:Key="Schedule_Loading">
+        Caricamento pianificazione in corso...
+    </x:String>
+    <x:String x:Key="MettingLauncher_Title">
+        Aprire Smart Note e prendere appunti durante la riunione.
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_Dynamic">
+        Dal vivo
+    </x:String>
+    <x:String x:Key="UserCenter_BBS">
+        Benvenuti nella community di Yoga Book 9. Le tue risposte sono importanti per noi, quindi invia qui i tuoi commenti e le domande.
+    </x:String>
+    <x:String x:Key="UserCenter_BBSButton">
+        Visita il forum di Yoga Book 9
+    </x:String>
+    <x:String x:Key="Setting_Dialog">
+        Mostra promemoria sulle impostazioni
+    </x:String>
+    <x:String x:Key="UserCenter_Wallpaper_ComingSoon">
+        Coming Soon
+    </x:String>
+    <x:String x:Key="WonderBarSubtitle">
+        Quando una tastiera Bluetooth si trova vicino allo schermo inferiore o la Tastiera virtuale è attiva, la Barra dei widget viene visualizzata sopra la tastiera.
+    </x:String>
+    <x:String x:Key="UserCenter_Answer">
+        FAQ
+    </x:String>
+    <x:String x:Key="AnswerWidget_All">
+        Tutti
+    </x:String>
+    <x:String x:Key="LenovoAgreementLicense">
+        Contratto di licenza Lenovo
+    </x:String>
+    <x:String x:Key="ThirdPartyNotice">
+        Comunicazione di terzi
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarTitle">
+        Widget Agenda o Notizie
+    </x:String>
+    <x:String x:Key="UserCenter_PKBShowWonderBar">
+        Si utilizza la Tastiera virtuale
+    </x:String>
+    <x:String x:Key="UserCenter_BKShowWonderBar">
+        Si utilizza la tastiera Bluetooth
+    </x:String>
+    <x:String x:Key="UserCenter_WonderBarFocusText">
+        Finestra con stato attivo (se selezionata, viene spostata automaticamente nell'area Barra Wondar; se deselezionata, viene automaticamente spostata sullo schermo superiore)
+    </x:String>
+    <x:String x:Key="UserCenter_HeaderText">
+        Introduzione al Centro utente di Yoga Book 9
+    </x:String>
+    <x:String x:Key="UserCenter_ContentText">
+        Nel Centro utente è possibile leggere informazioni sulle procedure e le funzioni di Yoga Book 9 o impostare la funzione a doppio schermo.
+    </x:String>
+    <x:String x:Key="UserCenter_AgreeText">
+        Comprendo e accetto l'
+    </x:String>
+    <x:String x:Key="UserCenter_LenovoPrivacyStatement">
+        Informativa sulla privacy Lenovo
+    </x:String>
+    <x:String x:Key="UserCenter_Join">
+        Entra nel Programma esperienza utente
+    </x:String>
+    <x:String x:Key="UserCenter_TryNow">
+        Prova ora
+    </x:String>
+
+</ResourceDictionary>
+
