@@ -6,3 +6,4 @@
 /.gitignore
 /bin/Wonderbar/x64/Debug
 /Pyxis.UWPApp/obj/x64/Debug/.winmd_cache
+/.vs/ProjectEvaluation
