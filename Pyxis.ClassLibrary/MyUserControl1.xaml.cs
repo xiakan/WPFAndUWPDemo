@@ -14,12 +14,12 @@ namespace WPFAndUWPDemo.ClassLibrary
         private async void InitWebview2()
         {
             WebView2 webView2 = new WebView2();
-            webView2.Width = 1200;
+            webView2.Width = 1800;
             webView2.Height = 1200;
             Canvas.SetTop(webView2, 0);
             this.Canvas.Children.Add(webView2);
             await webView2.EnsureCoreWebView2Async();
-            webView2.CoreWebView2?.Navigate("https://www.baidu.com/");
+            webView2.CoreWebView2?.Navigate("https://www.msn.cn/zh-cn/feed?ocid=entnewsntp");
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
